@@ -1,0 +1,214 @@
+/*
+#------------------------------------------------------------------------
+# Quark - Joomla! template (for Joomla 2.5)
+#
+# Copyright (C) 2007-2015 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+
+@import "variables.less";
+@import "mixins.less";
+
+@media (max-width: 1920px) {
+	.transparent-tabs .gkTabsNav {
+		.transform(~"translateY(-50%) translateX(-840px)");
+	}
+}
+
+@media (max-width: 1720px) {
+	.transparent-tabs .gkTabsNav {
+		left: 10px;
+		.transform(~"translateY(-50%)");
+	}
+	.gk-features {
+		img {
+			height: auto;
+			max-width: 100%;
+		}
+	}
+	.box.big-spaces {
+		padding: 150px 0 !important;
+	}
+	.box.very-big-spaces {
+		padding: 320px 0 !important;
+	}
+	#gkHeaderMod .gkPage {
+		width: 90%;
+	}
+}
+
+@media (max-width:1540px) {
+	.transparent-tabs {
+		.gkPage {
+			margin: 0 0 0 260px!important;
+		}
+	}
+	.gk-price-table {
+		margin: 15 * @body_font_size 0;
+	}
+}
+
+@media (max-width: 1460px) {
+	#gkLogo.text {
+		left: 10px;
+	}
+	#gkMobileMenu {
+		position: fixed;
+		right: 10px;
+		top: 0!important;
+		.transition(~"right .3s ease-out");
+		z-index: 2;
+	}
+	
+	.menu-open #gkMobileMenu {
+		right: 290px;
+	}
+	.gkIsWrapper-gk_quark .gkIsQuarkPagination {
+		right: -150px;
+	}
+}
+
+@media (max-width: 1360px) {
+	.gkIsWrapper-gk_quark .gkIsQuarkPagination {
+		right: -100px;
+	}
+}
+
+@media (max-width: 1300px) {
+	h1,
+	.gk-big-text > h2 {
+		font-size: 3.2 * @body_font_size;
+		line-height: 4.8 * @body_font_size;
+	}
+	h2 {
+		font-size: 2.4 * @body_font_size;
+		line-height: 2.8 * @body_font_size;
+	}
+	.single-page > .header .item-desc, 
+	.single-page > .header .item-category, 
+	.blog-page > .header .item-desc, 
+	.blog-page > .header .item-category {
+		font-size: 1.8 * @body_font_size;
+	}
+	.mouse-icon {
+		bottom: 32px;
+	}
+	.gk-features {
+		dd {
+			margin: 0 0 20px 0;
+		}
+		dt {
+			margin: 0 0 20px 0;
+		}
+	}
+	.box.big-spaces {
+		padding: 120px 0 !important;
+	}
+	.box.very-big-spaces {
+		padding: 240px 0 !important;
+	}
+	.gk-price-table {
+		margin: 10 * @body_font_size 0;
+	}
+	.gkIsWrapper-gk_quark .gkIsQuarkPagination {
+		right: -100px;
+	}
+}
+
+@media (max-width: 1260px) {
+	.gkIsWrapper-gk_quark .gkIsQuarkPagination {
+		right: -50px;
+	}
+}
+
+@media (max-width: 1160px) {
+	#gkLogo,
+	#gkMobileMenu {
+		margin-top: 20px!important;
+		padding: 0;
+	}
+	
+	.gkMainMenu,
+	#gkHeaderNav .gkMainMenu {
+		margin-top: 6px!important;
+	}
+	
+	#gkHeaderNav .gkMainMenu + #gkMobileMenu {
+		padding-top: 4px;
+	}
+	
+	.gk-fixed-nav {
+		#gkLogo,
+		#gkMobileMenu {
+			margin-top: 72px!important;
+		}
+		
+		.gkMainMenu {
+			margin-top: 60px!important;
+		}
+	}
+	
+	.gkAsideMenu > ul {
+		padding-top: 14px;
+	}
+	#close-menu {
+		top: 20px;
+	}
+	.gkPage {
+		padding-left: 16px!important;
+		padding-right: 16px!important;
+	}
+	
+	.gkIsWrapper-gk_quark .gkIsQuarkPagination {
+		right: 10px;
+	}
+	.transparent-tabs {
+		.gkTabsNav {
+			left: 0;
+			padding: 10px!important;
+			transform: none;
+			top: 50px;
+			text-align: center;
+			width: 100%;
+			
+			li {
+				display: inline-block;
+				float: none;
+				padding: 0 12px!important;
+				width: auto;
+				
+				&:before {
+					display: none;
+				}
+			}
+		}
+		
+		.gkTabsItem {
+			padding: 0!important;
+		}
+	
+		.gkPage {
+			margin: 0 0 0 0!important;
+			width: 100%!important;
+		}
+	}
+	#gkMainbody .box .content {
+		padding-left: 16px!important;
+		padding-right: 16px!important;
+	}
+	
+	#gkSidebar .box .content {
+		padding-left: 0!important;
+		padding-right: 0!important;
+	}
+	.box .header {
+		font-size: 2.4 * @body_font_size;
+	}
+	.box.light .box-wrap,
+	.box.dark .box-wrap,
+	.box.color .box-wrap {
+		padding: 2.4 * @body_font_size!important;
+	}
+}

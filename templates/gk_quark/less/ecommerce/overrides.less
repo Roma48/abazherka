@@ -1,0 +1,348 @@
+//
+// Basic
+//
+
+body { 
+       font-size: 2 * @body_font_size;
+       line-height: 3.6 * @body_font_size;
+}
+h1 {
+	font-size: 6 * @body_font_size;
+	font-weight: normal;
+}
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="url"],
+input[type="email"],
+button,
+.button,
+input[type="submit"],
+input[type="button"],
+.pagenav-prev a,
+.pagenav-next a,
+#gkMainbody .readmore > a,
+.readon,
+.btn, 
+.btn-border,
+.btn-thin-border { 
+         border-radius: 2px;
+	 color: @darker
+}
+label { 
+        font-size: 1.6 * @body_font_size; 
+	text-transform: none;
+}
+select {
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+        background: transparent url('../images/arrow.svg') no-repeat right 10px center;
+	cursor: pointer;
+	padding-right: 28px;		
+}
+
+th {
+      background: @darker;
+      color: @white;
+      font-size: 1.6 * @body_font_size; 
+}
+
+//
+// Logo and mainmenu
+//
+#gkLogo {
+	margin-top: 52px;
+}
+#gkHeaderNav .gkMainMenu {
+	margin-top: 40px!important;
+}
+#gkHeaderNav {
+	&.gk-fixed-nav {
+		.box-shadow(~"0 0 2px rgba(0,0,0, .15)");
+	
+		#gkLogo {
+			margin-top: 72px;
+		}
+		.gkMainMenu {
+			height: 72px;
+			margin-top: 48px!important;
+			
+			.gkmenu.level0 > li > a {
+				padding: 24px 15px;
+			}
+		}
+	}
+	
+	.gkMainMenu {		
+		.gkmenu li div.childcontent {
+			border-radius: 1px;
+			.box-shadow(~"0 3px 2px rgba(0,0,0, .15)");
+			
+			&:after {
+				clear: both;
+				content: "";
+				display: table;
+			}
+			
+			li {
+				font-size: 1.3 * @body_font_size!important;
+				line-height: 2.4 * @body_font_size!important;
+				
+				a {
+					padding: 0;
+				}
+			}
+			
+			.header {
+				padding: 0;
+				
+				a {
+					color: @darkest;
+					display: block;
+					font-size: 1.3 * @body_font_size;
+					padding: 0 0 24px 0;
+					text-transform: uppercase;
+					
+					&:active,
+					&:focus,
+					&:hover {
+						color: @primary_color;
+					}
+				}
+			}
+		}
+		
+		.gkmenu li div.childcontent-inner {
+			padding: 0;
+			
+			&:after {
+				clear: both;
+				content: "";
+				display: table;
+			}
+		}
+	}
+}
+
+// 
+// Frontpage content
+// 
+.frontpage .gk-desc {
+	padding: 150px 0;
+
+	h2 {
+		color: @darkest;
+		font-size: 1.8 * @body_font_size;
+		letter-spacing: 8px;
+		text-transform: uppercase;
+	}
+	
+	p {
+		color: @dark;
+		font-size: 2* @body_font_size;
+		line-height: 3.6 * @body_font_size;
+		margin: 0 auto 80px auto;
+		max-width: 920px;
+	}
+}
+
+//
+// Module headers
+//
+.box {
+	.header {
+		color: @darkest;
+		font-size: 1.8 * @body_font_size;
+		font-weight: bold;
+		letter-spacing: 8px;
+		line-height: 1;
+		padding: 0 0 20px 0;
+		text-transform: uppercase;
+	}
+}
+
+//
+// Footer
+//
+#gkFooter {
+	background: @gray_bright;
+	padding: 115px 0;
+}
+
+#gkFooterNav {
+	border-top: none;
+	float: left;
+	padding: 0;
+	width: 50%;
+	
+	li {
+		float: left;
+		font-size: 1.4 * @body_font_size;
+		line-height: 2.6 * @body_font_size;
+		padding: 0;
+		text-align: left;
+		width: 50%;
+		
+		a {
+			color: @dark;
+			font-weight: normal;
+			text-transform: none;
+			
+			&:active,
+			&:focus,
+			&:hover {
+				color: @primary_color;
+			}
+		}
+	}
+}
+
+#gkCopyrights {
+	color: @dark;
+	float: right;
+	font-size: 1.4 * @body_font_size;
+	line-height: 2.2 * @body_font_size;
+	padding: 0;
+	text-align: right;
+	text-transform: none;
+	width: 50%;
+	
+	&:before {
+		display: none;
+	}
+}
+
+//
+// Video block
+//
+.gk-video-link {
+	font-size: 1.8 * @body_font_size;
+	font-weight: 500;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	
+	& > i {
+		border-width: 4px;
+		font-size: 2.8 * @body_font_size;
+		height: 76px;
+		line-height: 7 * @body_font_size;
+		margin: 0 3 * @body_font_size;
+		position: relative;
+		text-indent: 7px;
+		top: 5px;
+		width: 76px;
+		will-change: opacity, transoform;
+		z-index: 10;
+	}
+	
+	&:hover > i {
+		margin: 0 4.5 * @body_font_size;
+	}
+}
+
+//
+// Search page override
+//
+.search-page {
+	.header {
+		&:after {
+			display: none;
+		}
+	
+		& > img {
+			bottom: 0;
+			top: auto;
+			.transform(~"none");
+		}
+	}
+	
+	.header-content {
+		h1 {
+			color: @darkest;
+		}
+		
+		.btn-border {
+			border-color: @darkest!important;
+			color: @darkest!important;
+		}
+	}
+}
+
+//
+// Page 404 override
+//
+.error-page {	
+	#gkPageContent {
+		background: url('../images/header_bg.jpg') no-repeat center bottom;
+		background-size: cover;
+    }
+	h1 { 
+		color: @darkest;
+		font-weight: 300;
+	}
+	
+	h2 {
+		color: @darkest;
+		color: @silver_light;
+		font-size: 1.2 * @body_font_size;
+		letter-spacing: 12px;
+		text-transform: uppercase;
+	}
+	.search-goog {
+		color: @darkest;
+		font-size: 1.4 * @body_font_size;
+		padding: 60px 0 180px;
+		
+		input[type="submit"] {
+			box-sizing: border-box;
+		        background: none;
+			border: 2px solid @darkest;
+                        color: @darkest !important;
+			margin: 0 0 0 12px;
+			
+			&:hover {
+			       border-color: @primary_color;
+			       color: @primary_color !important;
+			      
+			}
+		}
+	}
+	
+}
+
+//
+// Blog Page
+//
+
+.blog-page .item-title {
+	font-weight: normal;
+}
+.blog-page  .cat-item-intro-text {
+	font-size: 2 * @body_font_size;
+	line-height: inherit;
+}
+.itemTags li { 
+       font-size: 1.8 * @body_font_size;
+}
+.single-page .itemFullText {
+ font-size: inherit
+} 
+
+//
+// Fixes for the menu
+//
+#aside-menu {
+	background: @darkest;
+	
+	.gk-social-icons a {
+		color: rgba(255, 255, 255, 0.4)!important;
+		
+	}
+}
+#gkMobileMenu {
+	margin: 42px 0 0 0!important;
+}

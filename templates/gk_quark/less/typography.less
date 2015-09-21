@@ -1,0 +1,416 @@
+/*
+#------------------------------------------------------------------------
+# Quark - Joomla! template (for Joomla 3.x)
+#
+# Copyright (C) 2007-2015 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+
+
+/* Warning messages */
+
+.alert {
+	border: 1px solid transparent;
+	color: @darkest;
+	font-size: 1.4 * @body_font_size;
+	font-weight: 500;	
+        padding: 12px 12px 12px 50px;
+        position: relative;
+        
+        &:before {
+                font-family: FontAwesome;
+                font-size: 1.6 * @body_font_size;
+                position: absolute;
+                top: 10px;
+                left: 22px;
+        }
+	
+	
+	&.info {
+         border-color: #9fcdff;      
+	 	 color: #2c76c7; 
+        
+                 &:before {
+                        color: #2c76c7;
+                        content: "\f0e6";
+                }
+	}
+	
+	&.success {
+         border-color: #96dab5;
+         color: #35ac6b;
+        
+                 &:before {
+                        color: #35ac6b;
+                        content: "\f0eb";
+                 }
+	}
+	
+	&.notice {
+         border-color: #fed37d;
+         color: #cf9215;
+        
+                 &:before {
+                        color: #e29e13;
+                        content: "\f071";
+                }
+        }
+	
+        &.error {
+         border-color: #ffa5a5;
+         color: #e32121;
+        
+                 &:before {
+                        color: #e32121;
+                        content: "\f057";
+                }
+        }
+	
+}
+
+/* Warning messages */
+
+.highlight {
+	background: #ffd;
+        cursor: default;
+        padding: 1px 5px;
+        text-shadow: none
+}
+
+/* Progress bar */
+
+ .progress { 
+	background: @gray_bright;  
+	color: @darkest;
+	font-size: 1.4 * @body_font_size;  
+	font-weight: 400;
+	line-height: 3.2 * @body_font_size;
+	height: 3px;   
+	margin: 3em 0; 
+	position: relative;     
+	
+	.bar {
+		background: @darkest;	     
+		box-sizing: border-box;
+		float: left;
+		height: 100%;
+		opacity: 0;
+		overflow: visible;
+		padding-top: 2px;
+		position: relative;
+		.transform(~"scaleX(0)")!important;
+		.transform-origin(~"left center");
+		.transition(~"all 1s ease-out");
+		text-align: left;
+	
+		&.gk-loaded {
+			opacity: 1;
+			.transform(~"scaleX(1)")!important;
+		}
+	
+		& > span {
+			opacity: 0;
+			position: absolute;
+			.transition(~"all .3s ease-out");
+			.transition-delay(~"1s");
+			right: -5px;
+			top: -10px;
+		} 
+		
+		&.gk-loaded > span {
+			opacity: 1;
+			top: 2px;
+		}
+	}
+	
+	& > span {
+		left: 0;
+		line-height: 3.3 * @body_font_size;
+		position:  absolute;	
+	}
+}
+
+
+/* Code & Pre */
+
+pre,
+code {
+        background: @gray_bright;
+	border-left: 4px solid @darkest;
+	color: @darkest;
+	font: normal .92em/32px 'Curier New', monospace!important;
+        margin: 3em 0;
+        padding: 20px 26px 20px 32px
+}
+
+
+/* Unordered lists */
+
+.item-body ul,
+.list-1,
+.list-2,
+.list-3 {
+        margin: 1.5em 0 2em;
+        padding: 0;
+	
+	& > li { list-style: none;
+        overflow: inherit;
+        padding: 2px 0 2px 26px;
+        position: relative;
+        
+                 &:before {
+                        color: @secondary_color !important;
+                        font-family: FontAwesome;
+                        position: absolute;               
+                        left: 0        
+		}
+	}
+}
+
+.item-body ul li:before{
+        color: @dark;
+        content: "\f111";
+        font-size: 0.6 * @body_font_size;
+        top: 10px;
+	
+	
+}
+.list-1 li:before  {
+       
+        content: "\f14a"!important;
+        font-size: 1.2 * @body_font_size !important; 
+        top: 6px!important;
+}
+.list-2 li:before  {
+       
+        content: "\f006"!important;
+        font-size: 1.3 * @body_font_size !important; 
+        top: 6px!important;
+}
+.list-3 li:before  {
+       
+        content: "\f0a9"!important;
+        font-size: 1.3 * @body_font_size !important; 
+        top: 6px!important;
+}
+
+
+/* numBlocks */
+
+.numblock {
+	color: @darkest;
+	font-weight: 400;
+        margin: 0 0 24px;
+        min-height: 48px;
+        padding: 0 0 0 62px !important;
+        position: relative;
+        
+        span {  
+	
+            border: 1px solid @silver_bright;
+        	.border-radius(50%);	    
+            display: block;
+            font-size: 1.3 * @body_font_size;
+            font-weight: bold;
+            height: 36px;
+            left: 0;
+            line-height: 36px;   
+            position: absolute;
+            text-align: center;
+            top: 2px;
+            width: 36px;            
+           
+        }
+}
+
+/* Blocks */
+    
+.block-1,
+.block-2 {
+	background: @gray_bright;      
+        padding: 30px
+}
+.block-2 {
+	background: #FFFEF4; 
+}
+.legend {
+	border: 4px double @gray_light;
+        margin: 3em 0;
+        padding: 30px;
+        
+        h4 {
+                background: @white;
+		color: @darkest;
+                float: left;
+                font-size: 1.4 * @body_font_size;
+                font-weight: 400;
+                left: 11px;
+                line-height: 18px;
+                margin: 0 0 -9px!important;
+                padding: 0 10px;
+                position: relative;
+                text-transform: uppercase;
+                top: -41px;
+        }
+        
+        p {
+                clear: both;
+                margin: 7px
+        }
+}
+
+/* Blockquote */
+
+blockquote {
+	border-left: 3px solid @silver_bright;    
+	-webkit-font-smoothing: antialiased;
+	font-size: 1.5 * @body_font_size;
+	font-style: italic;
+	margin-left: 0;
+	margin: 3em 0;		
+	padding: 0 0 0 30px;
+       
+        
+        & > p {
+		
+        	margin: 0
+        }
+	
+	 & > footer {
+		
+		font-weight: 400;		
+		margin: 0.5em 0 0
+		 
+	}
+        
+      
+}
+
+/* Floated blocks */
+
+.block-left,
+.block-right {
+        color: @darkest;
+        display: block;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 170%;
+        padding: 25px;
+        width: 38%
+}
+.block-left {
+        float: left;
+        padding-left: 0;
+        text-align: left
+}
+.block-right {
+        float: right;
+        padding-right: 0;
+        text-align: right
+}
+
+
+
+
+/******************************************************************
+  
+  For demonstration purposes only
+
+******************************************************************/
+
+#demo-typography {
+        background: transparent;
+        overflow: hidden;
+        padding: 10px 30px 30px;
+        
+        li {
+                color: @primary_color;
+                float: left;
+                font-size: 1.1 * @body_font_size;
+                line-height: 24px;
+                list-style-type: disc;
+                width: 23.9%;
+                
+                a {
+                        font-size: 1.1 * @body_font_size;
+                        text-shadow: 2px 2px 0 @white;
+                }
+        }
+        
+}
+#warnings p { margin: 1em 0}
+.demo-typoDiv {
+        clear: both;
+        margin: 0 0 60px;
+        overflow: hidden
+}
+.demo-typo {
+        color: @darkest;
+        font-size: 1.6 * @body_font_size;
+        margin: 60px 0 20px;
+        text-transform: uppercase
+}
+.demo-typo-col2 {
+        float: left;
+        width: 50%
+}
+.demo-typo-col3 {
+        float: left;
+        width: 33%
+}
+.demo-typo-col4 {
+        float: left;
+        width: 25%
+}
+.demo-typo_padd { padding: 0 15px }
+#warnings .demo-typo_padd p { margin: 1em 0 1.6em }
+.typoDesc small {
+        color: @silver_light;
+        font: normal 11px Monaco, Consolas, "Courier News", monospace;
+}
+.bubble-2 small { color: @white; }
+.gkblock-3 small { color: #353639!important }
+.helpTooltip {
+        background: @primary_color;
+        color: @white;
+}
+
+.item-body .the-icons {
+	border-top: 1px solid @gray_light;
+        margin-bottom: 32px;
+}
+.item-body .the-icons > li {
+	border: 1px solid @gray_light;
+	border-right: none;
+	border-top: none;
+	font-size: 1.3 * @body_font_size;
+	font-weight: 400;
+        float: left;       
+        padding: 15px 20px;
+        width: 25%;
+} 
+
+.item-body .the-icons > li:nth-child(4n),
+.item-body .the-icons > li:last-child  {
+    border-right: 1px solid @gray_light;
+} 
+.the-icons > li:before {
+        display: none;
+}
+.page-header {
+        clear: both;
+        padding: 36px 0 18px;
+        text-transform: uppercase
+}
+[class^="fa fa-"],
+[class*=" fa-"] {
+        color: @darkest;
+        padding-right: 8px
+}
+.pixellove .the-icons > li i {  
+        color: @secondary_color; 
+	font-size: 1.8 * @body_font_size;  
+	margin-right: @body_font_size;
+}

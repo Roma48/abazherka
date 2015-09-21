@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="2.5" type="plugin" group="system">
+	<name>System - GK Reservation</name>
+	<author>www.gavick.com</author>
+	<creationDate>13 August 2014</creationDate>
+	<copyright>All Rights Reserved.</copyright>
+	<license>license GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<authorEmail>info@gavick.com</authorEmail>
+	<authorUrl>https://www.gavick.com</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_GKRESERVATION</description>	
+	<files>
+		<filename plugin="plg_gkreservation">plg_gkreservation.php</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_gkreservation.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_gkreservation.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="form">
+				<field name="date_field" type="radio"
+					description="PLG_GKRESERVATION_DATE_FIELD_DESC"
+					label="PLG_GKRESERVATION_DATE_FIELD"
+					default="1"
+				>
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				
+				<field name="time_field" type="radio"
+					description="PLG_GKRESERVATION_TIME_FIELD_DESC"
+					label="PLG_GKRESERVATION_TIME_FIELD"
+					default="1"
+				>
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				
+				<field name="size_field" type="radio"
+					description="PLG_GKRESERVATION_SIZE_FIELD_DESC"
+					label="PLG_GKRESERVATION_SIZE_FIELD"
+					default="1"
+				>
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				
+				<field name="name_field" type="radio"
+					description="PLG_GKRESERVATION_NAME_FIELD_DESC"
+					label="PLG_GKRESERVATION_NAME_FIELD"
+					default="1"
+				>
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				
+				<field name="email_field" type="radio"
+					description="PLG_GKRESERVATION_EMAIL_FIELD_DESC"
+					label="PLG_GKRESERVATION_EMAIL_FIELD"
+					default="1"
+				>
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+
+				<field name="phone_field" type="radio"
+					description="PLG_GKRESERVATION_PHONE_FIELD_DESC"
+					label="PLG_GKRESERVATION_PHONE_FIELD"
+					default="1"
+				>
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				
+				<field name="text_field" type="radio"
+					description="PLG_GKRESERVATION_TEXT_FIELD_DESC"
+					label="PLG_GKRESERVATION_TEXT_FIELD"
+					default="1"
+				>
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				
+				<field name="use_recaptcha" type="radio"
+					description="PLG_GKRESERVATION_USE_RECAPTCHA_DESC"
+					label="PLG_GKRESERVATION_USE_RECAPTCHA"
+					default="0"
+				>
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				
+				<field name="public_key" type="text"
+					description="PLG_GKRESERVATION_PUBLIC_KEY_DESC"
+					label="PLG_GKRESERVATION_PUBLIC_KEY"
+					default=""
+				/>
+			</fieldset>
+			
+			<fieldset name="config">
+				<field name="emails" type="text"
+					description="PLG_GKRESERVATION_EMAILS_DESC"
+					label="PLG_GKRESERVATION_EMAILS"
+					default=""
+				/>
+				
+				<field name="additional_text" type="textarea"
+					description="PLG_GKRESERVATION_ADDITIONAL_DESC"
+					label="PLG_GKRESERVATION_ADDITIONAL"
+					default=""
+				/>
+			</fieldset>
+		</fields>
+	</config>
+</install>

@@ -1,0 +1,184 @@
+/*
+#------------------------------------------------------------------------
+# Quark - Joomla! template (for Joomla 2.5)
+#
+# Copyright (C) 2007-2015 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+
+@import "variables.less";
+@import "mixins.less";
+
+body {
+	font-size: 1.4 * @body_font_size;
+}
+
+.k2FeedIcon a, 
+a.k2FeedIcon {
+	margin-top: 32px;
+}
+.demo-typo-col2,
+.demo-typo-col3,
+.demo-typo-col4 {
+	clear: both;
+	float: none;
+	padding-bottom: 20px;
+	width: 100%;
+}
+.error-page {
+	h2 {
+		font-size: 1.6 * @body_font_size;
+		margin-bottom: 20px;
+	}
+	.error-page-container {
+		padding: 10 * @body_font_size 0 0 0;
+	}	
+}
+h1 {
+	letter-spacing: 0;
+}
+h1, 
+.gk-big-text > h2 {
+	font-size: 2.8 * @body_font_size;
+	line-height: 3.4 * @body_font_size;
+}
+.item-info {
+	margin-top: 7 * @body_font_size;
+}
+.item-body {
+	margin-top: 3.2 * @body_font_size;
+}
+#gkHeaderMod h2 {
+	font-size: 2* @body_font_size;
+	line-height: 2.6 * @body_font_size;
+}
+#gkHeaderMod img,
+.single-page > .header > img, 
+.blog-page > .header > img,
+#k2Container.single-page > .header > img, 
+#k2Container.blog-page > .header > img {
+	height: 120%!important;
+	width: auto!important;
+	max-width: none!important;
+}
+.mouse-icon {
+	display: none;
+}
+.gk-desc {
+	 & > img {
+		max-width: 75%;	
+		margin: 0 0 4.8 * @body_font_size 0;
+	}
+	h2 {
+		font-size: 2 * @body_font_size;
+		margin-bottom: 2.4 * @body_font_size;
+	}
+	p {
+		font-size: 1.4 * @body_font_size;
+	}
+}
+.frontpage .gk-desc {
+	padding: 6 * @body_font_size 0 4 * @body_font_size 0;
+}
+.gkIsWrapper-gk_quark figure h2 {
+	font-size: 2 * @body_font_size;
+}
+.gkIsWrapper-gk_quark figure p {
+	font-size: 1.4 * @body_font_size;
+}
+.gk-video-link {
+	font-size: 2 * @body_font_size;
+	& > i {
+		height: 50px;
+		font-size: 2 * @body_font_size;
+		line-height: 48px;
+		margin: 0 10px!important;
+		width: 50px;
+	}
+} 
+.gk-features {
+	margin: 8 * @body_font_size 0;
+	
+	dt,
+	dd {
+		margin: 0 0 1 * @body_font_size 0;
+	}
+	dd {
+		font-size: 1.2 * @body_font_size;
+	}
+}
+
+.gk-price-table > dl {
+	padding: 0 0 3 * @body_font_size;
+	
+	dt {
+		padding: 2 * @body_font_size;
+		padding-bottom: 2 * @body_font_size;
+	}
+	dd {
+		& > ul {
+			padding: 2 * @body_font_size;
+		}
+		
+		& > a {
+			padding: 0 1.2 * @body_font_size;
+		}	
+	}	
+}
+
+.box.newsletter {
+	form {
+		text-align: center;
+	}
+	small {
+		max-width: 100%;
+		width: 100%;
+	}	
+	input {
+		float: none;
+	}
+}
+.login, 
+.registration,
+.reset, 
+.remind {
+	width: 100%;
+}
+.itemCommentsForm {
+	textarea, 
+	.inputbox {
+		margin: 0 1 * @body_font_size 1 * @body_font_size 0;
+	}	
+}
+.item-body .the-icons > li {
+	width: 50%;
+}
+.item-body .the-icons > li:nth-child(2n), 
+.item-body .the-icons > li:last-child {
+	border-right: 1px solid @gray_light;
+}
+
+#gk-menu-overlay-wrap {
+	margin: 0 auto 0 -150px;
+	max-width: 300px;
+}
+
+.single-page .header .item-title, 
+.blog-page .header .item-title {
+	font-size: 3.2 * @body_font_size;
+	letter-spacing: 3px;
+}
+
+.single-page .item-desc, 
+.single-page .item-category, 
+.blog-page .item-desc, 
+.blog-page .item-category {
+	font-size: 1.2 * @body_font_size !important;
+	letter-spacing: 2px;
+}
+
+.blog-page .item-list {
+  padding: 100px 0 0;
+}

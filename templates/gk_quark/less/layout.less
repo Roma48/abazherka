@@ -1,0 +1,317 @@
+/*
+#------------------------------------------------------------------------
+# Quark - Joomla! template (for Joomla 2.5)
+#
+# Copyright (C) 2007-2015 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+
+/* Base elements and classes */
+html {
+	border-bottom: 1px solid transparent;
+	min-height: 100%;
+}
+body > div {
+	footer,
+	header,
+	section {
+		/* class used in the full template-width containers */
+		clear: both;
+		margin: 0 auto;
+	}	
+}
+.gk-clearfix {
+	/* Positions blocks -clearing */
+	clear: both;
+}
+
+/* clearfix */
+#gkPageContent,
+#gkContent,
+#gkSidebar,
+.gk-cols,
+footer,
+header,
+section,
+aside,
+article,
+.box,
+.gkTabsNav,
+.gk-features,
+.gk-price-table,
+.gk-testimonials > div,
+#k2Container,
+.single-page > .item-content,
+.single-page > .itemComments,
+.box .box-wrap,
+.gk-clearfix {
+	&:after {
+		clear: both;
+		content: "";
+		display: table;	
+	}
+}
+
+/* Component header */
+.component-header {
+	padding: 0 0 30px;
+}
+.component-header > h1 {
+	margin: 0 0 60px;
+	
+}
+
+/* Columns */
+#gkContent,
+#gkSidebar,
+#gk-content-wrapper {
+	/* Main columns */
+	float: left;
+	width: 100%;
+}
+#gkSidebar {
+	float: right;
+	padding-left: 45px;
+}
+.blog-page #gkSidebar {
+	padding-top: 118px;
+}
+.single-page #gkSidebar {
+	padding-top: 132px;
+}
+.tag-page,
+.user-page,
+.latest-page,
+.generic-page {
+	#gkSidebar {
+		padding-top: 84px; 	
+	}
+}
+
+div[data-sidebar-pos="left"] #gkContent,
+div[data-sidebar-pos="left"] #gk-content-wrapper {
+	float: right;
+}
+div[data-sidebar-pos="left"] #gkSidebar {
+	float: left;
+	padding-left: 0;
+	padding-right: 45px;
+}
+#gkMainbody,
+#gkMainbodyTop,
+#gkMainbodyBottom {
+	.box {
+		padding-left: 0!important;
+		padding-right: 0!important;
+		width: 100%;
+	}
+}
+#gkMainbodyTop + #gkMainbody {
+	margin-top: 0;
+	padding-top: 10px;
+}
+
+#gkMainbody + #gkMainbodyBottom {
+	margin-top: 0;
+	padding-top: 10px;
+}
+
+/* Module groups */
+#gkTop1 .box,
+#gkTop2 .box,
+#gkBottom1 .box,
+#gkBottom2 .box,
+#gkBottom3 .box,
+#gkBottom4 .box,
+#gkBottom5 .box,
+#gkBottom6 .box,
+#gkBottom7 .box,
+#gkBottom8 .box,
+#gkBottom9 .box {
+	/* Columns in the positions blocks */
+	float: left;
+}
+
+/* Joomla columns */
+.cols-2 .column-1,
+.cols-2 .column-2 {
+	width: 50%;
+}
+.cols-3 .column-1,
+.cols-3 .column-2,
+.cols-3 .column-3 {
+	float: left;
+	width: 33.3%;
+}
+.column-1,
+.column-2,
+.column-3 {
+	float: left;
+}
+/*
+Layout calculations
+ */
+#gkMainbody .box + .box {
+	margin-top: 30px;
+} 
+
+/* Joomla columns */
+.cols-2 .column-1,
+.cols-3 .column-1 {
+	padding-right: 10px;
+}
+.cols-2 .column-2,
+.cols-3 .column-3 {
+	padding-left: 10px;
+}
+.cols-3 .column-2 {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+/* top/bottom modules */
+
+/* 3-column layout */
+.gkCols3 {
+	.box.gkmod-1,
+	.box.gkmod-2,
+	.box.gkmod-3,
+	.box.gkmod-more {
+		float: left;
+		padding: 0 30px;	
+	}	
+	.box.gkmod-1 {
+		width: 100%;	
+	}
+	.box.gkmod-2 {
+		width: 50%;
+	}
+	.box.gkmod-3,
+	.box.gkmod-more {
+		width: 33.3%;
+	}
+	.box.gkmod-more:nth-child(3n+1) {
+		clear: both;
+	}
+	.box.gkmod-more.gkmod-last-1:last-child {
+		width: 100%!important;
+	}
+	.box.gkmod-more.gkmod-last-2:last-child,
+	.box.gkmod-more.gkmod-last-2:nth-last-child(2) {
+		width: 50%!important;
+	}
+}
+
+/* 4-column layout */
+.gkCols4 {
+	.box.gkmod-1,
+	.box.gkmod-2,
+	.box.gkmod-3,
+	.box.gkmod-4,
+	.box.gkmod-more {
+		float: left;
+		padding: 0 30px;	
+	}
+	.box.gkmod-1 {
+		width: 100%;	
+	}
+	.box.gkmod-2 {
+		width: 50%;
+	}
+	.box.gkmod-3 {
+		width: 33.3%;
+	}
+	.box.gkmod-4,
+	.box.gkmod-more {
+		width: 25%;
+	}
+	.box.gkmod-more:nth-child(4n+1) {
+		clear: both;
+	}
+	.box.gkmod-more.gkmod-last-1:last-child {
+		width: 100%!important;
+	}
+	.box.gkmod-more.gkmod-last-2:last-child,
+	.box.gkmod-more.gkmod-last-2:nth-last-child(2) {
+		width: 50%!important;
+	}
+	.box.gkmod-more.gkmod-last-3:last-child,
+	.box.gkmod-more.gkmod-last-3:nth-last-child(2),
+	.box.gkmod-more.gkmod-last-3:nth-last-child(3) {
+		width: 33.3%!important;
+	}	
+}
+
+
+/* 6-column layout */
+.gkCols6 {
+	.box.gkmod-1,
+	.box.gkmod-2,
+	.box.gkmod-3,
+	.box.gkmod-4,
+	.box.gkmod-5,
+	.box.gkmod-6,
+	.box.gkmod-more {
+		float: left;
+		padding: 0 30px;	
+	}
+	.box.gkmod-1 {
+		width: 100%;	
+	}
+	.box.gkmod-2 {
+		width: 50%;
+	}
+	.box.gkmod-3 {
+		width: 33.3%;
+	}
+	.box.gkmod-4,
+	.box.gkmod-more {
+		width: 25%;
+	}
+	.box.gkmod-5,
+	.box.gkmod-more {
+		width: 20%;
+	}
+	.box.gkmod-6,
+	.box.gkmod-more {
+		width: 16.66%;
+	}
+	.box.gkmod-more:nth-child(6n+1) {
+		clear: both;
+	}
+	.box.gkmod-more.gkmod-last-1:last-child {
+		width: 100%!important;
+	}
+	.box.gkmod-more.gkmod-last-2:last-child,
+	.box.gkmod-more.gkmod-last-2:nth-last-child(2) {
+		width: 50%!important;
+	}
+	.box.gkmod-more.gkmod-last-3:last-child,
+	.box.gkmod-more.gkmod-last-3:nth-last-child(2),
+	.box.gkmod-more.gkmod-last-3:nth-last-child(3) {
+		width: 33.3%!important;
+	}
+	.box.gkmod-more.gkmod-last-4:last-child,
+	.box.gkmod-more.gkmod-last-4:nth-last-child(2),
+	.box.gkmod-more.gkmod-last-4:nth-last-child(3),
+	.box.gkmod-more.gkmod-last-4:nth-last-child(4) {
+		width: 20%!important;
+	}
+	.box.gkmod-more.gkmod-last-5:last-child,
+	.box.gkmod-more.gkmod-last-5:nth-last-child(2),
+	.box.gkmod-more.gkmod-last-5:nth-last-child(3),
+	.box.gkmod-more.gkmod-last-5:nth-last-child(4),
+	.box.gkmod-more.gkmod-last-5:nth-last-child(5) {
+		width: 16.66%!important;
+	}	
+}
+
+/* Common rules */
+.gkCols3,
+.gkCols4,
+.gkCols6 {
+	& > div {
+		margin: 0 -30px;
+	}
+}

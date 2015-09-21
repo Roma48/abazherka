@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gktypography>
+	<group name="Alerts" type="html">
+		<item name="Info"><![CDATA[<p class="alert info">Your info message goes here!</p>]]></item>
+		<item name="Success"><![CDATA[<p class="alert success">Your info message goes here!</p>]]></item>
+		<item name="Notice"><![CDATA[<p class="alert notice">Your info message goes here!</p>]]></item>
+		<item name="Error"><![CDATA[<p class="alert error">Your info message goes here!</p>]]></item>
+	</group>
+
+	<group name="Blocks" type="html">
+		<item name="Numblock"><![CDATA[<p class="numblock"><span>01</span> Lorem ipsum dolor sit amet,</p>]]></item>
+		<item name="Block I"><![CDATA[<p class="block-1">Lorem ipsum dolor sit amet,</p>]]></item>
+		<item name="Block II"><![CDATA[<p class="block-2">Lorem ipsum dolor sit amet,</p>]]></item>
+		<item name="Legend"><![CDATA[<div class="legend"><h4>Title</h4><p>and here text.</p></div>]]></item>
+		<item name="Blockquote"><![CDATA[<blockquote>Your quoted text goes here...</blockquote>]]></item>
+		<item name="Floated block - left"><![CDATA[<span class="block-left">Block of text</span>]]></item>
+		<item name="Floated block - right"><![CDATA[<span class="block-right">Block of text</span>]]></item>
+	</group>
+	
+	<group name="Lists" type="html">
+		<item name="Default"><![CDATA[<ul><li>Item</li></ul>]]></item>
+		<item name="Style I"><![CDATA[<ul class="list-1"><li>Item</li></ul>]]></item>
+		<item name="Style II"><![CDATA[<ul class="list-1"><li>Item</li></ul>]]></item>
+		<item name="Style III"><![CDATA[<ul class="list-1"><li>Item</li></ul>]]></item>
+	</group>
+	
+	<group name="Other" type="html">
+		<item name="Highlight"><![CDATA[<span class="highlight">Your highlight phrase goes here!</span>]]></item>
+		<item name="Progress bar"><![CDATA[<div class="progress"><div class="bar" style="width: 60%" data-sr="wait .25s and move 0px"><span>60%</span></div><span>Label one</span></div>]]></item>
+		<item name="Pre"><![CDATA[<pre>code</pre>]]></item>
+		<item name="Code"><![CDATA[<code>code</code>]]></item>
+		<item name="General icon rule"><![CDATA[<i class="fa fa-CLASS_NAME"></i> content here...]]></item>
+	</group>
+</gktypography>	
