@@ -38,6 +38,22 @@
   display: block;
   position: absolute;
 }
+#gkHeaderNav.contains-cart.gk-fixed-nav #gk-cart-btn {
+  top: 65px;
+}
+#gk-cart-btn {
+  /*background: #fff;*/
+  border-radius: 50%;
+  cursor: pointer;
+  display: block;
+  height: 28px;
+  line-height: 27px;
+  position: absolute;
+  right: 100px !important;
+  text-align: center;
+  top: 18px;
+  width: 52px;
+}
 .only-desktop {
   display: none;
 }

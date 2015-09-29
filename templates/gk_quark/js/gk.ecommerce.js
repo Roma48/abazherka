@@ -142,8 +142,8 @@
 	// Cart popup
 	$(document).ready(function() {
 		if($('#gkPopupCart').length > 0) { 
-			var btn = $('#gk-cart-btn');
-			popup_cart = $('#gkPopupCart');
+			var btn = $('#gk-cart-bt');
+			popup_cart = $('#gkPopupCar');
 			popup_cart.css('display', 'block');
 			popup_cart_h = popup_cart.find('.gkPopupWrap').height();
 			popup_cart.css({'opacity': 0, 'margin-top': -150 }); 

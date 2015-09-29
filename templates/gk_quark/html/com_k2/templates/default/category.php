@@ -96,12 +96,12 @@ $document = JFactory::getDocument();
 		    <?php endif; ?>
 		    
 		    <?php if($this->params->get('catFeedIcon')): ?>
-		    <div class="k2FeedIcon">
-		    	<a href="<?php echo $this->feed; ?>" title="<?php echo JText::_('K2_SUBSCRIBE_TO_THIS_RSS_FEED'); ?>">
-		    		<span><?php echo JText::_('K2_SUBSCRIBE_TO_THIS_RSS_FEED'); ?></span>
-		    	</a>
-		    	<div class="clr"></div>
-		    </div>
+<!--		    <div class="k2FeedIcon">-->
+<!--		    	<a href="--><?php //echo $this->feed; ?><!--" title="--><?php //echo JText::_('K2_SUBSCRIBE_TO_THIS_RSS_FEED'); ?><!--">-->
+<!--		    		<span>--><?php //echo JText::_('K2_SUBSCRIBE_TO_THIS_RSS_FEED'); ?><!--</span>-->
+<!--		    	</a>-->
+<!--		    	<div class="clr"></div>-->
+<!--		    </div>-->
 		    <?php endif; ?>
 		    
 		    <?php endif; ?>

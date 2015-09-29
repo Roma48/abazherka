@@ -119,7 +119,10 @@ if(
 
 $error_page = $item_id == $error_item_id ? ' error-page' : '';
 $page_suffix_output = $this->page_suffix;
-
+//echo "<pre>";
+//var_dump($page_suffix_output);
+//echo "</pre>";
+//exit;
 if(stripos($page_suffix_output, 'frontpage') !== FALSE) {
 	$dark_bg = ''; 
 }
@@ -197,16 +200,17 @@ $tpl_page_suffix = $page_suffix_output . $dark_bg . $error_page != '' ? ' class=
                  
                  <?php if($this->API->get('show_menu', 1)) : ?>
                  <div id="gkMobileMenu" class="gkPage<?php if($this->API->get('menu_type', 'off-canvas') === 'off-canvas') : ?> off-canvas<?php endif; ?>">
-                     <span id="gk-mobile-menu-text"><?php echo JText::_('TPL_GK_LANG_MENU'); ?></span>
+<!--                     <span id="gk-mobile-menu-text">--><?php //echo JText::_('TPL_GK_LANG_MENU'); ?><!--</span>-->
                      <i id="static-aside-menu-toggler"></i>
                  </div>
                  <?php endif; ?>
                  
                  <?php if($this->API->modules('cart')) : ?>
-                     <div id="gk-cart-btn"<?php if(!$this->API->modules('header')) : ?> class="no-header-image"<?php endif; ?>>
-                     	<i class="gkicon-cart"></i>
+                     <div id="gk-cart-btn">
+<!--                     	<i class="gkicon-cart"></i>-->
+						 <jdoc:include type="modules" name="cart" style="none" />
                      </div>
-                     
+
                      <?php $this->layout->loadBlock('cart'); ?>
                  <?php endif; ?>
                  
@@ -214,7 +218,7 @@ $tpl_page_suffix = $page_suffix_output . $dark_bg . $error_page != '' ? ' class=
                  </div>
                  <?php endif; ?>
 	    	</div>
-	    	
+
 	    	<?php if($this->API->modules('header') && $item_id != $error_item_id) : ?>
 	    	<div id="gkHeaderMod" class="gk-clearfix">
 	    		<jdoc:include type="modules" name="header" style="none" />
@@ -541,6 +545,7 @@ $tpl_page_suffix = $page_suffix_output . $dark_bg . $error_page != '' ? ' class=
 		
 		jQuery('*[data-sr]').each(function(i, el) {
 			el = jQuery(el);
+//			console.log(el);
 			
 			if(el.hasClass('gk-add-rotate-animation')) {
 				el.addClass('gk-rotate-animation');

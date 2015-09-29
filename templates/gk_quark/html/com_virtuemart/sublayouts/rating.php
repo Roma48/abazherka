@@ -7,7 +7,7 @@ if ($viewData['showRating']) {
 	if (empty($product->rating)) {
 	?>
 		<span class="ratingbox dummy">
-			<?php echo vmText::_('COM_VIRTUEMART_UNRATED'); ?>
+<!--			--><?php //echo vmText::_('COM_VIRTUEMART_UNRATED'); ?>
 		</span>
 	<?php
 		} else {
