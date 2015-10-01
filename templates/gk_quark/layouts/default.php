@@ -160,7 +160,13 @@ $tpl_page_suffix = $page_suffix_output . $dark_bg . $error_page != '' ? ' class=
 	<?php endif; ?>
 </head>
 <body<?php echo $tpl_page_suffix; ?><?php if($this->browser->get("tablet") == true) echo ' data-tablet="true"'; ?><?php if($this->browser->get("mobile") == true) echo ' data-mobile="true"'; ?><?php $this->layout->generateLayoutWidths(); ?> data-zoom-size="<?php echo $this->API->get('gk_zoom_size', '150'); ?>" data-parallax="<?php echo ($this->API->get('js_parallax', '1') == '1') ? 'true' : 'false'; ?>">	
-	<?php
+<div id="preloader-page">
+	<div>
+		<a id="decor" href="#">Site</a>
+		<a id="weddind" href="http://makemywedding.com.ua">Make my wedding</a>
+	</div>
+</div>
+<?php
 	     // put Google Analytics code
 	     echo $this->social->googleAnalyticsParser();
 	?>

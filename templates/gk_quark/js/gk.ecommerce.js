@@ -141,6 +141,10 @@
 		
 	// Cart popup
 	$(document).ready(function() {
+		$('#decor').click(function(e){
+			e.preventDefault();
+			$('#preloader-page').fadeOut();
+		});
 		if($('#gkPopupCart').length > 0) { 
 			var btn = $('#gk-cart-bt');
 			popup_cart = $('#gkPopupCar');
