@@ -10887,7 +10887,7 @@ a.pswp__share--download:before {
 }
 #cc-tag {
   position: fixed;
-  z-index: 999999999;
+  /*z-index: 999999999;*/
   bottom: 0;
   right: 8%;
   display: none;
@@ -11238,3 +11238,28 @@ a.pswp__share--download:before {
 .frontpage.fullscreen #preloader-page > div > a:first-child {
   margin-right: 50px;
 }
+
+a.fb {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url("../images/social.png") no-repeat -106px -63px;
+  background-size: 400px;
+}
+
+a.vk {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url("../images/social.png") no-repeat -67px -63px;
+  background-size: 400px;
+}
+
+a.in {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url("../images/social.png") no-repeat -145px -63px;
+  background-size: 400px;
+}
+

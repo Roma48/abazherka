@@ -140,10 +140,17 @@
 	});
 		
 	// Cart popup
+
 	$(document).ready(function() {
+		//if($('.frontpage.fullscreen #preloader-page').length != 0){
+		//	$('.frontpage.fullscreen #preloader-page').show();
+		//} else {
+		//	$('#gkBg').fadeIn();
+		//}
 		$('#decor').click(function(e){
 			e.preventDefault();
-			$('#preloader-page').fadeOut();
+			$('.frontpage.fullscreen #preloader-page').fadeOut();
+			$('#gkBg').fadeIn();
 		});
 		if($('#gkPopupCart').length > 0) { 
 			var btn = $('#gk-cart-bt');
