@@ -11240,6 +11240,7 @@ a.pswp__share--download:before {
 }
 
 a.fb {
+  border-radius: 50%;
   display: inline-block;
   width: 30px;
   height: 30px;
@@ -11248,6 +11249,7 @@ a.fb {
 }
 
 a.vk {
+  border-radius: 50%;
   display: inline-block;
   width: 30px;
   height: 30px;
@@ -11256,6 +11258,7 @@ a.vk {
 }
 
 a.in {
+  border-radius: 50%;
   display: inline-block;
   width: 30px;
   height: 30px;
