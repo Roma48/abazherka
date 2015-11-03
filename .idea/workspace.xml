@@ -1,7 +1,164 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2273535-6a34-4f2b-a60c-5b3639bf12e8" name="Default" comment="" />
+    <list default="true" id="c2273535-6a34-4f2b-a60c-5b3639bf12e8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mod_front_products/tmpl/default.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mod_front_products/helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mod_front_products/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mod_front_products/tmpl/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mod_front_products/mod_front_products.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mod_front_products/mod_front_products.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/cache/com_virtuemart_cats/7ece2eac3d02d0ac31f6cdbe4b52419b-cache-com_virtuemart_cats-b83f7e1451ad4182c3794dd26950628a.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/cache/com_virtuemart_cats/7ece2eac3d02d0ac31f6cdbe4b52419b-cache-com_virtuemart_cats-cbb4f3ef3564cf02a3e58b3646bf95df.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/cache/com_virtuemart_rss/7ece2eac3d02d0ac31f6cdbe4b52419b-cache-com_virtuemart_rss-16dd6bec1cce1767a29ae0a129713cf6.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/cache/com_virtuemart_rss/7ece2eac3d02d0ac31f6cdbe4b52419b-cache-com_virtuemart_rss-c5147c8550af025a00de2c1e22ba7f12.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/cache/com_virtuemart_rss/index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/k2/items/src/11ff9b4c887cc2e009006cc7fd3aeb4c.jpg" afterPath="$PROJECT_DIR$/media/k2/items/src/11ff9b4c887cc2e009006cc7fd3aeb4c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/k2/items/cache/11ff9b4c887cc2e009006cc7fd3aeb4c_Generic.jpg" afterPath="$PROJECT_DIR$/media/k2/items/cache/11ff9b4c887cc2e009006cc7fd3aeb4c_Generic.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/k2/items/cache/11ff9b4c887cc2e009006cc7fd3aeb4c_L.jpg" afterPath="$PROJECT_DIR$/media/k2/items/cache/11ff9b4c887cc2e009006cc7fd3aeb4c_L.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/k2/items/cache/11ff9b4c887cc2e009006cc7fd3aeb4c_M.jpg" afterPath="$PROJECT_DIR$/media/k2/items/cache/11ff9b4c887cc2e009006cc7fd3aeb4c_M.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/k2/items/cache/11ff9b4c887cc2e009006cc7fd3aeb4c_S.jpg" afterPath="$PROJECT_DIR$/media/k2/items/cache/11ff9b4c887cc2e009006cc7fd3aeb4c_S.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/k2/items/cache/11ff9b4c887cc2e009006cc7fd3aeb4c_XL.jpg" afterPath="$PROJECT_DIR$/media/k2/items/cache/11ff9b4c887cc2e009006cc7fd3aeb4c_XL.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/k2/items/cache/11ff9b4c887cc2e009006cc7fd3aeb4c_XS.jpg" afterPath="$PROJECT_DIR$/media/k2/items/cache/11ff9b4c887cc2e009006cc7fd3aeb4c_XS.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/k2/items/src/144aba6c568fde2fce1a77afef2ebf5c.jpg" afterPath="$PROJECT_DIR$/media/k2/items/src/144aba6c568fde2fce1a77afef2ebf5c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/k2/items/cache/144aba6c568fde2fce1a77afef2ebf5c_Generic.jpg" afterPath="$PROJECT_DIR$/media/k2/items/cache/144aba6c568fde2fce1a77afef2ebf5c_Generic.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/k2/items/cache/144aba6c568fde2fce1a77afef2ebf5c_L.jpg" afterPath="$PROJECT_DIR$/media/k2/items/cache/144aba6c568fde2fce1a77afef2ebf5c_L.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/k2/items/cache/144aba6c568fde2fce1a77afef2ebf5c_M.jpg" afterPath="$PROJECT_DIR$/media/k2/items/cache/144aba6c568fde2fce1a77afef2ebf5c_M.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/k2/items/cache/144aba6c568fde2fce1a77afef2ebf5c_S.jpg" afterPath="$PROJECT_DIR$/media/k2/items/cache/144aba6c568fde2fce1a77afef2ebf5c_S.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/k2/items/cache/144aba6c568fde2fce1a77afef2ebf5c_XL.jpg" afterPath="$PROJECT_DIR$/media/k2/items/cache/144aba6c568fde2fce1a77afef2ebf5c_XL.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/k2/items/cache/144aba6c568fde2fce1a77afef2ebf5c_XS.jpg" afterPath="$PROJECT_DIR$/media/k2/items/cache/144aba6c568fde2fce1a77afef2ebf5c_XS.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/k2/categories/39.jpg" afterPath="$PROJECT_DIR$/media/k2/categories/39.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/k2/items/src/ce11944b98d0742eead2b016a253afd2.jpg" afterPath="$PROJECT_DIR$/media/k2/items/src/ce11944b98d0742eead2b016a253afd2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/k2/items/cache/ce11944b98d0742eead2b016a253afd2_Generic.jpg" afterPath="$PROJECT_DIR$/media/k2/items/cache/ce11944b98d0742eead2b016a253afd2_Generic.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/k2/items/cache/ce11944b98d0742eead2b016a253afd2_L.jpg" afterPath="$PROJECT_DIR$/media/k2/items/cache/ce11944b98d0742eead2b016a253afd2_L.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/k2/items/cache/ce11944b98d0742eead2b016a253afd2_M.jpg" afterPath="$PROJECT_DIR$/media/k2/items/cache/ce11944b98d0742eead2b016a253afd2_M.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/k2/items/cache/ce11944b98d0742eead2b016a253afd2_S.jpg" afterPath="$PROJECT_DIR$/media/k2/items/cache/ce11944b98d0742eead2b016a253afd2_S.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/k2/items/cache/ce11944b98d0742eead2b016a253afd2_XL.jpg" afterPath="$PROJECT_DIR$/media/k2/items/cache/ce11944b98d0742eead2b016a253afd2_XL.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/k2/items/cache/ce11944b98d0742eead2b016a253afd2_XS.jpg" afterPath="$PROJECT_DIR$/media/k2/items/cache/ce11944b98d0742eead2b016a253afd2_XS.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/k2/items/src/daf30d03da42a5291604b3fcca07f0d0.jpg" afterPath="$PROJECT_DIR$/media/k2/items/src/daf30d03da42a5291604b3fcca07f0d0.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/k2/items/cache/daf30d03da42a5291604b3fcca07f0d0_Generic.jpg" afterPath="$PROJECT_DIR$/media/k2/items/cache/daf30d03da42a5291604b3fcca07f0d0_Generic.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/k2/items/cache/daf30d03da42a5291604b3fcca07f0d0_L.jpg" afterPath="$PROJECT_DIR$/media/k2/items/cache/daf30d03da42a5291604b3fcca07f0d0_L.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/k2/items/cache/daf30d03da42a5291604b3fcca07f0d0_M.jpg" afterPath="$PROJECT_DIR$/media/k2/items/cache/daf30d03da42a5291604b3fcca07f0d0_M.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/k2/items/cache/daf30d03da42a5291604b3fcca07f0d0_S.jpg" afterPath="$PROJECT_DIR$/media/k2/items/cache/daf30d03da42a5291604b3fcca07f0d0_S.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/k2/items/cache/daf30d03da42a5291604b3fcca07f0d0_XL.jpg" afterPath="$PROJECT_DIR$/media/k2/items/cache/daf30d03da42a5291604b3fcca07f0d0_XL.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/k2/items/cache/daf30d03da42a5291604b3fcca07f0d0_XS.jpg" afterPath="$PROJECT_DIR$/media/k2/items/cache/daf30d03da42a5291604b3fcca07f0d0_XS.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/cache/com_virtuemart_cats/7ece2eac3d02d0ac31f6cdbe4b52419b-cache-com_virtuemart_cats-5f112fa955d2fac9b6c6d391f8d815cd.php" afterPath="$PROJECT_DIR$/administrator/cache/com_virtuemart_cats/7ece2eac3d02d0ac31f6cdbe4b52419b-cache-com_virtuemart_cats-5f112fa955d2fac9b6c6d391f8d815cd.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/js/acyeditor.js" afterPath="$PROJECT_DIR$/media/com_acymailing/js/acyeditor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/js/acymailing.js" afterPath="$PROJECT_DIR$/media/com_acymailing/js/acymailing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/js/acymailing_compat.js" afterPath="$PROJECT_DIR$/media/com_acymailing/js/acymailing_compat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/js/acymailing_module.js" afterPath="$PROJECT_DIR$/media/com_acymailing/js/acymailing_module.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/acymenu.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/acymenu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/acyprint.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/acyprint.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/com_virtuemart.log.php" afterPath="$PROJECT_DIR$/logs/com_virtuemart.log.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_basic_black.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_basic_black.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_basic_blue.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_basic_blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_basic_green.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_basic_green.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_basic_raspberry.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_basic_raspberry.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_basic_red.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_basic_red.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_basic_sand.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_basic_sand.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_box_black.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_box_black.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_box_blue.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_box_blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_box_green.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_box_green.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_box_raspberry.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_box_raspberry.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_box_red.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_box_red.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_box_sand.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_box_sand.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_classic_black.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_classic_black.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_classic_blue.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_classic_blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_classic_green.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_classic_green.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_classic_raspberry.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_classic_raspberry.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_classic_red.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_classic_red.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_classic_sand.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_classic_sand.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_color_black.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_color_black.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_color_blue.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_color_blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_color_green.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_color_green.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_color_raspberry.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_color_raspberry.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_color_red.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_color_red.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_color_sand.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_color_sand.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_fancy_blue.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_fancy_blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_fancy_green.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_fancy_green.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_fancy_orange.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_fancy_orange.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_radial_black.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_radial_black.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_radial_blue.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_radial_blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_radial_green.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_radial_green.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_radial_raspberry.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_radial_raspberry.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_radial_red.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_radial_red.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_radial_sand.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_radial_sand.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_shadow_black.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_shadow_black.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_shadow_blue.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_shadow_blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_shadow_green.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_shadow_green.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_shadow_raspberry.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_shadow_raspberry.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_shadow_red.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_shadow_red.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_shadow_sand.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_shadow_sand.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_square_black.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_square_black.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_square_blue.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_square_blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_square_green.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_square_green.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_square_raspberry.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_square_raspberry.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_square_red.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_square_red.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/component_default_square_sand.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/component_default_square_sand.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/frontendedition.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/frontendedition.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/templates/newsletter-4/index.html" afterPath="$PROJECT_DIR$/media/com_acymailing/templates/newsletter-4/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/templates/newsletter-5/index.html" afterPath="$PROJECT_DIR$/media/com_acymailing/templates/newsletter-5/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/templates/newsletter-6/index.html" afterPath="$PROJECT_DIR$/media/com_acymailing/templates/newsletter-6/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/templates/technology_resp/index.html" afterPath="$PROJECT_DIR$/media/com_acymailing/templates/technology_resp/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/templates/newsletter-4/install.php" afterPath="$PROJECT_DIR$/media/com_acymailing/templates/newsletter-4/install.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/templates/newsletter-5/install.php" afterPath="$PROJECT_DIR$/media/com_acymailing/templates/newsletter-5/install.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/templates/newsletter-6/install.php" afterPath="$PROJECT_DIR$/media/com_acymailing/templates/newsletter-6/install.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/templates/technology_resp/install.php" afterPath="$PROJECT_DIR$/media/com_acymailing/templates/technology_resp/install.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/js/jquery/jquery-1.9.1.min.js" afterPath="$PROJECT_DIR$/media/com_acymailing/js/jquery/jquery-1.9.1.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/js/jquery/jquery-ui.min.js" afterPath="$PROJECT_DIR$/media/com_acymailing/js/jquery/jquery-ui.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_basic_black.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_basic_black.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_basic_blue.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_basic_blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_basic_green.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_basic_green.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_basic_raspberry.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_basic_raspberry.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_basic_red.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_basic_red.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_basic_sand.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_basic_sand.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_box_black.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_box_black.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_box_blue.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_box_blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_box_green.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_box_green.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_box_raspberry.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_box_raspberry.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_box_red.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_box_red.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_box_sand.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_box_sand.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_classic_black.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_classic_black.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_classic_blue.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_classic_blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_classic_green.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_classic_green.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_classic_raspberry.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_classic_raspberry.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_classic_red.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_classic_red.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_classic_sand.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_classic_sand.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_color_black.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_color_black.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_color_blue.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_color_blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_color_green.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_color_green.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_color_raspberry.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_color_raspberry.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_color_red.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_color_red.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_color_sand.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_color_sand.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_picture_blue.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_picture_blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_radial_black.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_radial_black.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_radial_blue.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_radial_blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_radial_green.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_radial_green.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_radial_raspberry.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_radial_raspberry.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_radial_red.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_radial_red.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_radial_sand.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_radial_sand.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_shadow_black.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_shadow_black.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_shadow_blue.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_shadow_blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_shadow_green.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_shadow_green.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_shadow_raspberry.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_shadow_raspberry.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_shadow_red.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_shadow_red.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_shadow_sand.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_shadow_sand.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_square_black.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_square_black.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_square_blue.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_square_blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_square_green.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_square_green.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_square_raspberry.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_square_raspberry.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_square_red.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_square_red.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/css/module_default_square_sand.css" afterPath="$PROJECT_DIR$/media/com_acymailing/css/module_default_square_sand.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gk_quark/css/small.desktop.css" afterPath="$PROJECT_DIR$/templates/gk_quark/css/small.desktop.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/templates/css/template_1.css" afterPath="$PROJECT_DIR$/media/com_acymailing/templates/css/template_1.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/templates/css/template_2.css" afterPath="$PROJECT_DIR$/media/com_acymailing/templates/css/template_2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/templates/css/template_3.css" afterPath="$PROJECT_DIR$/media/com_acymailing/templates/css/template_3.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_acymailing/templates/css/template_4.css" afterPath="$PROJECT_DIR$/media/com_acymailing/templates/css/template_4.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="abazherka.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -22,26 +179,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="font-awesome.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/gk_quark/css/font-awesome.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="257" column="1" selection-start-line="257" selection-start-column="1" selection-end-line="257" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GKMenu.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/gk_quark/lib/menu/GKMenu.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/gk_quark/layouts/default.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -72,41 +209,66 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template.ecommerce.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="template.ecommerce.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/gk_quark/css/template.ecommerce.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56815577">
+            <state vertical-scroll-proportion="0.0">
               <caret line="11244" column="14" selection-start-line="11244" selection-start-column="14" selection-end-line="11244" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tablet.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/gk_quark/css/tablet.css">
+      <file leaf-file-name="small.desktop.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/gk_quark/css/small.desktop.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+              <caret line="122" column="3" selection-start-line="122" selection-start-column="3" selection-end-line="122" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rating.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/gk_quark/html/com_virtuemart/sublayouts/rating.php">
+      <file leaf-file-name="mod_front_products.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/mod_front_products/mod_front_products.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generic.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/gk_quark/html/com_k2/templates/generic.php">
+      <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/mod_front_products/tmpl/default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
+            <state vertical-scroll-proportion="-20.625">
+              <caret line="36" column="61" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="helper.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/mod_front_products/helper.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.375">
+              <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mod_front_products.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/mod_front_products/mod_front_products.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.66225165">
+              <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -124,6 +286,14 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -140,6 +310,11 @@
         <option value="$PROJECT_DIR$/templates/gk_quark/layouts/default.php" />
         <option value="$PROJECT_DIR$/templates/gk_quark/js/gk.ecommerce.js" />
         <option value="$PROJECT_DIR$/templates/gk_quark/css/template.ecommerce.css" />
+        <option value="$PROJECT_DIR$/templates/gk_quark/css/small.desktop.css" />
+        <option value="$PROJECT_DIR$/modules/mod_front_products/mod_front_products.xml" />
+        <option value="$PROJECT_DIR$/modules/mod_front_products/helper.php" />
+        <option value="$PROJECT_DIR$/modules/mod_front_products/tmpl/default.php" />
+        <option value="$PROJECT_DIR$/modules/mod_front_products/mod_front_products.php" />
       </list>
     </option>
   </component>
@@ -157,10 +332,10 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="41" />
     <option name="y" value="24" />
-    <option name="width" value="1239" />
-    <option name="height" value="1000" />
+    <option name="width" value="1879" />
+    <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -211,7 +386,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -225,11 +400,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gk_quark" />
+              <option name="myItemId" value="mod_front_products" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -243,15 +418,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gk_quark" />
+              <option name="myItemId" value="mod_front_products" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="tmpl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -268,6 +443,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modules/mod_front_products" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -313,12 +489,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="24" width="1239" height="1000" extended-state="6" />
-    <editor active="false" />
+    <frame x="41" y="24" width="1879" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24939467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26132023" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -331,7 +507,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279396" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32743362" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -352,43 +528,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/gk_quark/layouts/blocks/head.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/gk_quark/templateDetails.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/gk_quark/js/lazyload.jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/gk_quark/config/default.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/gk_quark/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/gk_quark/layouts/default.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -604,7 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -717,8 +855,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/gk_quark/css/template.ecommerce.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56815577">
+        <state vertical-scroll-proportion="0.0">
           <caret line="11244" column="14" selection-start-line="11244" selection-start-column="14" selection-end-line="11244" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/gk_quark/css/small.desktop.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="122" column="3" selection-start-line="122" selection-start-column="3" selection-end-line="122" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_front_products/mod_front_products.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_front_products/helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.375">
+          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_front_products/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.625">
+          <caret line="36" column="61" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_front_products/mod_front_products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66225165">
+          <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
           <folding />
         </state>
       </provider>

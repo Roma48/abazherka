@@ -116,7 +116,7 @@
   }
   .gkMainMenu,
   #gkHeaderNav .gkMainMenu {
-    margin-top: 6px !important;
+    margin-top: 40px !important;
   }
   #gkHeaderNav .gkMainMenu + #gkMobileMenu {
     padding-top: 4px;
