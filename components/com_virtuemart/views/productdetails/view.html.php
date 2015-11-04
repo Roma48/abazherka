@@ -143,7 +143,6 @@ class VirtueMartViewProductdetails extends VmView {
 
 			$product_model->addImages($product);
 
-
 			if (isset($product->min_order_level) && (int) $product->min_order_level > 0) {
 				$min_order_level = $product->min_order_level;
 			} else {

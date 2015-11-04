@@ -8,13 +8,14 @@ require_once dirname(__FILE__) . '/helper.php';
 defined('DS') or define('DS', DIRECTORY_SEPARATOR);
 if (!class_exists( 'VmConfig' )) require(JPATH_ROOT.DS.'administrator'.DS.'components'.DS.'com_virtuemart'.DS.'helpers'.DS.'config.php');
 
+if (!class_exists('VmMediaHandler')) require(VMPATH_ADMIN.DS.'helpers'.DS.'mediahandler.php');
+if (!class_exists('VmImage')) require(VMPATH_ADMIN.DS.'helpers'.DS.'image.php');
 VmConfig::loadConfig();
 VmConfig::loadJLang('mod_virtuemart_product', true);
 
-$max_items = 		$params->get( 'max_items', 8 ); //maximum number of items to display
+$max_items = 		$params->get( 'max_items', 6 ); //maximum number of items to display
 $layout = $params->get('layout','qk_quark');
 $category_id = 		$params->get( 'virtuemart_category_id', 5 ); // Display products from this category only
-$image = $params->get('')
 $filter_category = 	(bool)$params->get( 'filter_category', 1 ); // Filter the category
 $display_style = 	$params->get( 'display_style', "div" ); // Display Style
 $products_per_row = $params->get( 'products_per_row', 1 ); // Display X products per Row
@@ -32,12 +33,6 @@ $productModel = VmModel::getModel('Product');
 
 
 $products = $productModel->getProductListing($Product_group, $max_items, $show_price, true, false,$filter_category, $category_id);
-
+$productModel->addImages($products);
 
 require JModuleHelper::getLayoutPath('mod_front_products');
-
-
- echo "<pre>";
- print_r($products[0]->images[0]->file_url);
- echo "</pre>";
-exit;

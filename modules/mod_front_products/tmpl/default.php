@@ -33,12 +33,16 @@ defined('_JEXEC') or die;
                                 <?php foreach ( $products as $product) :
                                     $url = JRoute::_ ('index.php?option=com_virtuemart&view=productdetails&virtuemart_product_id=' . $product->virtuemart_product_id . '&virtuemart_category_id=' .
                                         $product->virtuemart_category_id);
-                                    $img = Images::getImage($product->virtuemart_product_id);
-                                    $img = $img[0]->file_url;
+                                    if (isset($product->images) && !empty($product->images)) {
+                                        $img = $product->images[0]->getUrl();
+                                    } else {
+                                        $img = '';
+                                    }
+
 
                                 ?>
 
-                                <div class="nspArt nspCol2 nspFeatured" style="padding:65px;">
+                                <div class="nspArt nspCol2 <?php if($product->product_special) echo "nspFeatured"  ?>" style="padding:65px;">
                                     <div class="center tcenter fleft">
                                         <a href="<?php echo $url; ?>" class="nspImageWrapper tcenter fleft" style="margin:0 0 32px 0;" target="_self">
                                             <img class="nspImage" src="<?php echo $img; ?>" alt="<?php echo $product->product_name; ?>" style="width:380px;height:250px;">
@@ -47,7 +51,7 @@ defined('_JEXEC') or die;
                                     <h4 class="nspHeader tcenter fnone has-image"><a href="<?php echo $url; ?>" title="<?php echo $product->product_name; ?>" target="_self"><?php echo $product->product_name; ?></a></h4>
                                     <div class="nspInfo nspInfo1 tcenter fnone">
                                         <div><span><strong></strong></span><div class="addtocart-area">
-                                                <a href="<?php echo $url; ?>" class="addtocart-button">Details</a>
+                                                <a href="<?php echo $url; ?>" class="addtocart-button">MOD_FRONT_PRODUCTS_LINK_TEXT</a>
                                             </div>
                                         </div>
                                     </div>
