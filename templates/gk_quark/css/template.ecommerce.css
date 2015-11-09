@@ -9313,6 +9313,8 @@ th {
   color: #000 !important;
   font-weight: normal;
   height: 52px;
+  white-space: nowrap;
+  width: auto;
   left: 50%;
   line-height: 52px;
   opacity: 0;
@@ -11266,3 +11268,19 @@ a.in {
   background-size: 400px;
 }
 
+.enquire-form {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.enquire-form a {
+  background: #eba034;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+}
+
+#cboxClose {
+  padding: 0;
+}

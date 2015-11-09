@@ -15,7 +15,6 @@ defined('_JEXEC') or die;
     }
 </style>
 
-
 <div class="box quark-product-showcase gkmod-1"><div class="box-wrap"><div class="content gkPage">	<div class="nspMain big-spaces quark-product-showcase activated" id="nsp-nsp-877" data-config="{
 				'animation_speed': 400,
 				'animation_interval': 5000,
@@ -51,7 +50,7 @@ defined('_JEXEC') or die;
                                     <h4 class="nspHeader tcenter fnone has-image"><a href="<?php echo $url; ?>" title="<?php echo $product->product_name; ?>" target="_self"><?php echo $product->product_name; ?></a></h4>
                                     <div class="nspInfo nspInfo1 tcenter fnone">
                                         <div><span><strong></strong></span><div class="addtocart-area">
-                                                <a href="<?php echo $url; ?>" class="addtocart-button">MOD_FRONT_PRODUCTS_LINK_TEXT</a>
+                                                <a href="<?php echo $url; ?>" class="addtocart-button"><?php echo JText::_("MOD_FRONT_PRODUCTS_LINK_TEXT"); ?></a>
                                             </div>
                                         </div>
                                     </div>

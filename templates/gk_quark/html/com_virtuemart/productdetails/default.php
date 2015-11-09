@@ -337,9 +337,20 @@ if(vRequest::getInt('print',false)){ ?>
                </div>
           </div>
      </div>
+    <?php
+    jimport('joomla.application.module.helper');
+    // this is where you want to load your module position
+    $modules = JModuleHelper::getModules('enquire_form');
+
+    foreach($modules as $module)
+    {
+        echo JModuleHelper::renderModule($module);
+    }
+    ?>
+    <jdoc:include type="modules" name="enquire_form" />
      <?php echo $this->product->event->beforeDisplayContent; ?>
      <?php if(!empty($this->product->product_desc) || ($this->allowRating || $this->allowReview || $this->showRating || $this->showReview)) : ?>
-     <ul id="product-tabs">  
+         <ul id="product-tabs">
           <li 
           	data-toggle="product-description" 
           	class="active"

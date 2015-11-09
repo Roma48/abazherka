@@ -2,46 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2273535-6a34-4f2b-a60c-5b3639bf12e8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/language/en-GB/en-GB.mod_front_products.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mod_front_products/language/en-GB/en-GB.mod_front_products.sys.ini" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/com_virtuemart_cat_manus/7ece2eac3d02d0ac31f6cdbe4b52419b-cache-com_virtuemart_cat_manus-33beea0c507de03d70fa7123c3faaa4d.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/com_virtuemart_cat_manus/7ece2eac3d02d0ac31f6cdbe4b52419b-cache-com_virtuemart_cat_manus-62783c30c785f169c22f87a00cf8a800.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/com_virtuemart_cat_manus/7ece2eac3d02d0ac31f6cdbe4b52419b-cache-com_virtuemart_cat_manus-79120bb6f66dfed0fc2c29a7d387bb4b.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/com_virtuemart_cat_manus/7ece2eac3d02d0ac31f6cdbe4b52419b-cache-com_virtuemart_cat_manus-7ddb3d73ab31af05fb4d73b15e963a95.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/com_virtuemart_cat_manus/7ece2eac3d02d0ac31f6cdbe4b52419b-cache-com_virtuemart_cat_manus-7e8b5faeda4cfbf32b6334b9ed170abc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/com_virtuemart_cat_manus/7ece2eac3d02d0ac31f6cdbe4b52419b-cache-com_virtuemart_cat_manus-81eaf84f86fcdb1a9dc08b15aa5f4ea7.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/com_virtuemart_cat_manus/7ece2eac3d02d0ac31f6cdbe4b52419b-cache-com_virtuemart_cat_manus-98e2ae27972a19ecaa423aaf933a39fd.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/com_virtuemart_cat_manus/7ece2eac3d02d0ac31f6cdbe4b52419b-cache-com_virtuemart_cat_manus-b9725ca1f5ca769f7e4fa915c6923a3a.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/com_virtuemart_cat_manus/7ece2eac3d02d0ac31f6cdbe4b52419b-cache-com_virtuemart_cat_manus-b9d7e9cfbd215805dfb1cf1fe9b3af79.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/com_virtuemart_cat_manus/7ece2eac3d02d0ac31f6cdbe4b52419b-cache-com_virtuemart_cat_manus-c80d7f78f4efc2b517bfc252d6c57604.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/com_virtuemart_cat_manus/7ece2eac3d02d0ac31f6cdbe4b52419b-cache-com_virtuemart_cat_manus-e493bc65e56b3b437ecc3c5b12be0575.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/com_virtuemart_cat_manus/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/com_virtuemart_cats/7ece2eac3d02d0ac31f6cdbe4b52419b-cache-com_virtuemart_cats-369bcdf8a07ba3aeaf0a7c8b3d644af2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/com_virtuemart_cats/7ece2eac3d02d0ac31f6cdbe4b52419b-cache-com_virtuemart_cats-651545d86a6f40b1e4a829da7c27aeb4.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/com_virtuemart_cats/7ece2eac3d02d0ac31f6cdbe4b52419b-cache-com_virtuemart_cats-76115b08ed40cabaf3e877e5015bf1ce.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/com_virtuemart_cats/7ece2eac3d02d0ac31f6cdbe4b52419b-cache-com_virtuemart_cats-8cbf4f646e13a2fd7e52a648c9fabaf1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/com_virtuemart_cats/7ece2eac3d02d0ac31f6cdbe4b52419b-cache-com_virtuemart_cats-910b31a1f8a8684d88ad27901052e5aa.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/com_virtuemart_cats/7ece2eac3d02d0ac31f6cdbe4b52419b-cache-com_virtuemart_cats-91cb275b1191b5a967a605c5d16be361.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/com_virtuemart_cats/7ece2eac3d02d0ac31f6cdbe4b52419b-cache-com_virtuemart_cats-9258fae734b09b662d0bbdd65c09694e.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/com_virtuemart_cats/7ece2eac3d02d0ac31f6cdbe4b52419b-cache-com_virtuemart_cats-9c6ffa4ebae708fa1118012f95a61920.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/com_virtuemart_cats/7ece2eac3d02d0ac31f6cdbe4b52419b-cache-com_virtuemart_cats-bc73a518602bd06d918f1d51ec8aae07.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/com_virtuemart_cats/7ece2eac3d02d0ac31f6cdbe4b52419b-cache-com_virtuemart_cats-cb7f99ef2662625d378875e41e54f004.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/com_virtuemart_cats/7ece2eac3d02d0ac31f6cdbe4b52419b-cache-com_virtuemart_cats-cc83e673597d40eba34c9b0a68ead63f.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/com_virtuemart_cats/7ece2eac3d02d0ac31f6cdbe4b52419b-cache-com_virtuemart_cats-ff9c6e852f390ee27ee9c5aa81f73aad.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/com_virtuemart_cats/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/mod_virtuemart_product/helper.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/mod_virtuemart_product/language/en-GB/en-GB.mod_virtuemart_product.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/mod_virtuemart_product/language/en-GB/en-GB.mod_virtuemart_product.sys.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/mod_virtuemart_product/mod_virtuemart_product.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/mod_virtuemart_product/mod_virtuemart_product.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/mod_virtuemart_product/tmpl/default.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/mod_virtuemart_product/tmpl/single.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/com_virtuemart.log.php" afterPath="$PROJECT_DIR$/logs/com_virtuemart.log.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/language/uk-UA/uk-UA.mod_front_products.ini" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/mod_front_products/language/en-GB/en-GB.mod_front_products.sys.ini" afterPath="$PROJECT_DIR$/modules/mod_front_products/language/en-GB/en-GB.mod_front_products.ini" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configuration.php" afterPath="$PROJECT_DIR$/configuration.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/mod_front_products/tmpl/default.php" afterPath="$PROJECT_DIR$/modules/mod_front_products/tmpl/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gk_quark/html/com_virtuemart/productdetails/default.php" afterPath="$PROJECT_DIR$/templates/gk_quark/html/com_virtuemart/productdetails/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/language/en-GB/en-GB.mod_front_products.ini" afterPath="$PROJECT_DIR$/language/en-GB/en-GB.mod_front_products.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/mod_front_products/helper.php" afterPath="$PROJECT_DIR$/modules/mod_front_products/helper.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/mod_front_products/mod_front_products.php" afterPath="$PROJECT_DIR$/modules/mod_front_products/mod_front_products.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/mod_front_products/mod_front_products.xml" afterPath="$PROJECT_DIR$/modules/mod_front_products/mod_front_products.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_virtuemart/views/productdetails/view.html.php" afterPath="$PROJECT_DIR$/components/com_virtuemart/views/productdetails/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gk_quark/css/template.ecommerce.css" afterPath="$PROJECT_DIR$/templates/gk_quark/css/template.ecommerce.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gk_quark/templateDetails.xml" afterPath="$PROJECT_DIR$/templates/gk_quark/templateDetails.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="abazherka.iws" />
@@ -67,18 +38,18 @@
       <file leaf-file-name="mod_front_products.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/mod_front_products/mod_front_products.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.375">
-              <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mod_front_products.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mod_front_products.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/mod_front_products/mod_front_products.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30645162">
-              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -88,17 +59,67 @@
         <entry file="file://$PROJECT_DIR$/language/en-GB/en-GB.mod_front_products.ini">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="en-GB.mod_front_products.sys.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/mod_front_products/language/en-GB/en-GB.mod_front_products.sys.ini">
+      <file leaf-file-name="template.ecommerce.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/gk_quark/css/template.ecommerce.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.9">
+              <caret line="11284" column="13" selection-start-line="11284" selection-start-column="13" selection-end-line="11284" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="front.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/com_rsform/assets/css/front.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.064516">
+              <caret line="260" column="17" selection-start-line="260" selection-start-column="17" selection-end-line="260" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="configuration.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/configuration.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.4950166">
+              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uk-UA.mod_front_products.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/language/uk-UA/uk-UA.mod_front_products.ini">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="18" />
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/gk_quark/html/com_virtuemart/productdetails/default.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="349" column="55" selection-start-line="349" selection-start-column="55" selection-end-line="349" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="templateDetails.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/gk_quark/templateDetails.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="86" column="39" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -107,44 +128,8 @@
       <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/mod_front_products/tmpl/default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.333334">
-              <caret line="53" column="131" selection-start-line="53" selection-start-column="131" selection-end-line="53" selection-end-column="131" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/mod_front_products/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/mod_news_pro_gk5/tmpl/default.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.4">
-              <caret line="64" column="120" selection-start-line="64" selection-start-column="114" selection-end-line="64" selection-end-column="132" />
-              <folding>
-                <element signature="e#2955#2984#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="helper.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/mod_news_pro_gk5/helper.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-36.945454">
-              <caret line="179" column="47" selection-start-line="179" selection-start-column="47" selection-end-line="179" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -173,19 +158,23 @@
         <option value="$PROJECT_DIR$/templates/gk_quark/html/com_k2/templates/default/category.php" />
         <option value="$PROJECT_DIR$/templates/gk_quark/layouts/default.php" />
         <option value="$PROJECT_DIR$/templates/gk_quark/js/gk.ecommerce.js" />
-        <option value="$PROJECT_DIR$/templates/gk_quark/css/template.ecommerce.css" />
         <option value="$PROJECT_DIR$/templates/gk_quark/css/small.desktop.css" />
-        <option value="$PROJECT_DIR$/modules/mod_front_products/helper.php" />
-        <option value="$PROJECT_DIR$/templates/gk_quark/html/com_virtuemart/productdetails/default.php" />
         <option value="$PROJECT_DIR$/configuration.php" />
         <option value="$PROJECT_DIR$/templates/gk_quark/html/com_virtuemart/productdetails/default_images.php" />
         <option value="$PROJECT_DIR$/components/com_virtuemart/views/productdetails/view.html.php" />
         <option value="$PROJECT_DIR$/modules/mod_news_pro_gk5/tmpl/default.php" />
-        <option value="$PROJECT_DIR$/modules/mod_front_products/mod_front_products.php" />
         <option value="$PROJECT_DIR$/modules/mod_front_products/language/en-GB/en-GB.mod_front_products.sys.ini" />
         <option value="$PROJECT_DIR$/modules/mod_front_products/language/en-GB/en-GB.mod_front_products.ini" />
-        <option value="$PROJECT_DIR$/modules/mod_front_products/tmpl/default.php" />
+        <option value="$PROJECT_DIR$/language/en-GB/en-GB.mod_front_products.ini" />
+        <option value="$PROJECT_DIR$/modules/mod_front_products/helper.php" />
         <option value="$PROJECT_DIR$/modules/mod_front_products/mod_front_products.xml" />
+        <option value="$PROJECT_DIR$/modules/mod_front_products/tmpl/default.php" />
+        <option value="$PROJECT_DIR$/modules/mod_front_products/mod_front_products.php" />
+        <option value="$PROJECT_DIR$/language/uk-UA/uk-UA.mod_front_products.ini" />
+        <option value="$PROJECT_DIR$/templates/gk_quark/html/com_virtuemart/productdetails/default.php" />
+        <option value="$PROJECT_DIR$/templates/gk_quark/templateDetails.xml" />
+        <option value="$PROJECT_DIR$/templates/gk_quark/css/template.ecommerce.css" />
+        <option value="$PROJECT_DIR$/components/com_rsform/assets/css/front.css" />
       </list>
     </option>
   </component>
@@ -205,6 +194,22 @@
     <option name="y" value="24" />
     <option name="width" value="1879" />
     <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Blade files</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -229,6 +234,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -247,67 +253,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="abazherka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="abazherka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="abazherka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="abazherka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mod_front_products" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="abazherka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="abazherka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mod_front_products" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="language" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="en-GB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -315,9 +262,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/language/uk-UA" />
       <recent name="$PROJECT_DIR$/modules/mod_front_products" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -368,14 +318,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="24" width="1879" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26786688" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29078013" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32708332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25150028" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -386,6 +335,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32708332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -406,34 +356,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/gk_quark/html/com_virtuemart/productdetails/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="203" column="44" selection-start-line="203" selection-start-column="44" selection-end-line="203" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/gk_quark/html/com_virtuemart/category/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/gk_quark/html/com_virtuemart/category/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="209" column="20" selection-start-line="209" selection-start-column="20" selection-end-line="209" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libraries/legacy/model/legacy.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22336769">
@@ -466,13 +388,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/gk_quark/templateDetails.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -574,24 +489,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/gk_quark/css/template.ecommerce.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11244" column="14" selection-start-line="11244" selection-start-column="14" selection-end-line="11244" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/gk_quark/css/small.desktop.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="122" column="3" selection-start-line="122" selection-start-column="3" selection-end-line="122" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configuration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -634,7 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="85" column="14" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -645,27 +545,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mod_front_products/helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/gk_quark/html/com_virtuemart/productdetails/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="87" column="51" selection-start-line="87" selection-start-column="51" selection-end-line="87" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/administrator/components/com_virtuemart/helpers/vobject.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -673,7 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="390" column="20" selection-start-line="390" selection-start-column="20" selection-end-line="390" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -681,7 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="532" column="52" selection-start-line="532" selection-start-column="46" selection-end-line="532" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -689,11 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="260" column="64" selection-start-line="260" selection-start-column="59" selection-end-line="260" selection-end-column="64" />
-          <folding>
-            <element signature="e#6#637#0#PHP" expanded="true" />
-            <marker date="1434361286000" expanded="true" signature="-1:-1" placeholder="SELECT `virt..." />
-            <marker date="1434361286000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -701,7 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="143" column="26" selection-start-line="143" selection-start-column="12" selection-end-line="143" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -709,9 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.4">
           <caret line="64" column="120" selection-start-line="64" selection-start-column="114" selection-end-line="64" selection-end-column="132" />
-          <folding>
-            <element signature="e#2955#2984#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -719,27 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-36.945454">
           <caret line="179" column="47" selection-start-line="179" selection-start-column="47" selection-end-line="179" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mod_front_products/language/en-GB/en-GB.mod_front_products.sys.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mod_front_products/tmpl/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.333334">
-          <caret line="53" column="131" selection-start-line="53" selection-start-column="131" selection-end-line="53" selection-end-column="131" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -747,14 +598,73 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/language/en-GB/en-GB.mod_k2_comments.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/language/en-GB/en-GB.mod_footer.sys.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/language/en-GB/en-GB.mod_footer.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_virtuemart_search/mod_virtuemart_search.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_front_products/language/en-GB/en-GB.mod_front_products.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_front_products/helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_front_products/mod_front_products.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_front_products/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/mod_front_products/mod_front_products.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.375">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -762,18 +672,73 @@
     <entry file="file://$PROJECT_DIR$/language/en-GB/en-GB.mod_front_products.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mod_front_products/mod_front_products.xml">
+    <entry file="file://$PROJECT_DIR$/language/uk-UA/uk-UA.mod_front_products.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30645162">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/gk_quark/html/com_virtuemart/productdetails/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="349" column="55" selection-start-line="349" selection-start-column="55" selection-end-line="349" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/gk_quark/templateDetails.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="86" column="39" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/gk_quark/css/template.ecommerce.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.9">
+          <caret line="11284" column="13" selection-start-line="11284" selection-start-column="13" selection-end-line="11284" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_rsform/assets/css/front.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.064516">
+          <caret line="260" column="17" selection-start-line="260" selection-start-column="17" selection-end-line="260" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.4950166">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

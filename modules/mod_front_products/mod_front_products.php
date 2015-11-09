@@ -34,5 +34,8 @@ $productModel = VmModel::getModel('Product');
 
 $products = $productModel->getProductListing($Product_group, $max_items, $show_price, true, false,$filter_category, $category_id);
 $productModel->addImages($products);
+//
+//$language = JFactory::getLanguage();
+//$language->load('mod_front_products', JPATH_SITE, 'en-GB', true);
 
 require JModuleHelper::getLayoutPath('mod_front_products');

@@ -82,6 +82,7 @@
           <position>login</position>
           <position>newsletter</position>
           <position>cart</position>
+          <position>enquire_form</position>
           
           <!-- TOP Module Positions -->
           <position>top1</position>
