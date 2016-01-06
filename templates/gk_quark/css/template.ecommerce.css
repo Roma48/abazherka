@@ -1195,6 +1195,9 @@ div[data-sidebar-pos="left"] #gkSidebar {
   left: -9999px;
   z-index: 999;
 }
+#gkHeaderNav .gkMainMenu .gkmenu > li > .childcontent {
+  padding: 20px 30px;
+}
 #gkHeaderNav .gkMainMenu .gkmenu > li div.childcontent {
   background: #f5f5f6;
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .25);

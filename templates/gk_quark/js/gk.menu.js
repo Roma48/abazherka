@@ -271,7 +271,7 @@ function gk_quark_classic_menu_init() {
 	            //                      
 	            el.mouseenter(function() {                    
 	                var content = el.children('.childcontent').first();
-	                var basicMargin = (el.parent().hasClass('level0')) ? -1 * ((prevw / 2) - (el.outerWidth() / 2)) : 0;
+	                var basicMargin = 0;
 	                content.css('display', 'block');
 	            
 	                var pos = content.offset();
