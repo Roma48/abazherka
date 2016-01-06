@@ -93,6 +93,7 @@ if(vRequest::getInt('print',false)){ ?>
 				}
 				?>
           </div>
+          <?php if (!empty($this->product->product_s_desc)) : ?>
           <div>
                <div class="product-description">
                     <?php
@@ -336,7 +337,10 @@ if(vRequest::getInt('print',false)){ ?>
                     <?php endif; ?>
                </div>
           </div>
+          <?php endif; ?>
+
      </div>
+     <p class="enquire-form"><a class="modal modal_link cboxElement" href="/component/rsform/form/3-product?ml=1&amp;iframe=1" data-modal-iframe="true" data-modal-inner-width="500" data-modal-inner-height="500" data-modal-class-name="no_title">ORDER</a></p>
      <?php echo $this->product->event->beforeDisplayContent; ?>
      <?php if(!empty($this->product->product_desc) || ($this->allowRating || $this->allowReview || $this->showRating || $this->showReview)) : ?>
      <ul id="product-tabs">  
@@ -348,7 +352,7 @@ if(vRequest::getInt('print',false)){ ?>
           </li>
           
           <?php if($this->allowRating || $this->allowReview || $this->showRating || $this->showReview) : ?>
-          <li 
+          <li
 	          data-toggle="customer-reviews"
           >
           	<?php echo vmText::_ ('COM_VIRTUEMART_REVIEWS') ?>

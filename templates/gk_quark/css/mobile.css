@@ -72,7 +72,7 @@ body {
 .contact-details,
 .contact .contact-form input,
 .contact .contact-form textarea {
-  width: 100% !important;
+  /*width: 100% !important;*/
 }
 .contact-details,
 .contact-image {
@@ -431,7 +431,7 @@ dl.tabs dt.tabs a {
   font-size: 14px;
 }
 .blog-page .item-list .item-view {
-  margin: 0 0 60px 0;
+  margin: 0;
 }
 .item-info li {
   display: block;
@@ -809,4 +809,17 @@ fieldset.only label {
 }
 #facebox .popup > div > div > a + a {
   bottom: -60px;
+}
+
+.product:hover .catProductTitle {
+  top: -110px;
+}
+
+.browse-view .product:hover .readon {
+  bottom: 10px;
+}
+
+.product .catProductTitle,
+.frontpage h4.nspHeader {
+  margin-top: 10px;
 }

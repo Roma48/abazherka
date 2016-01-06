@@ -7,7 +7,7 @@
   width: 100% !important;
 }
 #gkPageContent {
-  padding: 100px 0 50px;
+  padding: 50px 0 50px;
 }
 #gkSidebar .box {
   padding: 10px !important;
@@ -215,7 +215,7 @@ body .gkCols6 .box.gkmod-more.gkmod-last-5:nth-last-child(5) {
   display: none;
 }
 .box.big-spaces {
-  padding: 80px 0 !important;
+  padding: 50px 0 !important;
 }
 .gkSlider {
   display: none;
@@ -356,14 +356,14 @@ body .gkCols6 .box.gkmod-more.gkmod-last-5:nth-last-child(5) {
   width: 100%;
 }
 .box.quark-product-showcase .nspArt {
-  padding: 45px !important;
+  padding: 20px !important;
 }
 .box.quark-product-showcase .nspArt:hover .nspInfo strong,
 .box.quark-product-showcase .nspArt:hover h4.nspHeader {
-  top: -80px;
+  /*top: -80px;*/
 }
 .box.quark-product-showcase .nspArt:hover .addtocart-button {
-  bottom: -60px;
+  /*bottom: -60px;*/
 }
 .box.quark-product-showcase .nspArt .addtocart-button {
   padding: 0 20px;
@@ -375,7 +375,8 @@ body .gkCols6 .box.gkmod-more.gkmod-last-5:nth-last-child(5) {
   padding: 0 0 20px 0;
 }
 .box.quark-gallery .nspImageWrapper {
-  max-width: 50%;
+  /*max-width: 50%;*/
+  height: 200px;
 }
 .main-image img.product-image,
 .featured-view .spacer img,
@@ -402,4 +403,8 @@ body .gkCols6 .box.gkmod-more.gkmod-last-5:nth-last-child(5) {
 .product .PricesalesPrice,
 .category .PricesalesPrice {
   font-size: 16px;
+}
+
+.blog-page .item-list .item-view {
+  margin: 0;
 }
