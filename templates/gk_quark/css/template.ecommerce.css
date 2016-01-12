@@ -1505,6 +1505,12 @@ div[data-sidebar-pos="left"] #gkSidebar {
   background: white;
 }
 
+.frontpage .gk-fixed-nav #gkMobileMenu i,
+.frontpage .gk-fixed-nav #gkMobileMenu i:before,
+.frontpage .gk-fixed-nav #gkMobileMenu i:after {
+  background: black;
+}
+
 #gkMobileMenu i {
   background: black;
   display: block;
@@ -1556,6 +1562,7 @@ div[data-sidebar-pos="left"] #gkSidebar {
   height: 120px;
   position: fixed;
   top: -150px;
+  z-index: 999;
 }
 #gkHeaderNav.inactive #gk-mobile-menu-text {
   width: 0 !important;
