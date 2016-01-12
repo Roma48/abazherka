@@ -1498,8 +1498,15 @@ div[data-sidebar-pos="left"] #gkSidebar {
 #gkMobileMenu:hover span {
   margin-right: 20px;
 }
+
+.frontpage #gkMobileMenu i,
+.frontpage #gkMobileMenu i:before,
+.frontpage #gkMobileMenu i:after {
+  background: white;
+}
+
 #gkMobileMenu i {
-  background: #26292b;
+  background: black;
   display: block;
   float: right;
   height: 2px;
@@ -1516,7 +1523,7 @@ div[data-sidebar-pos="left"] #gkSidebar {
 }
 #gkMobileMenu i:before,
 #gkMobileMenu i:after {
-  background: #26292b;
+  background: black;
   content: "";
   display: block;
   height: 2px;
@@ -7133,7 +7140,7 @@ h2.catSub,
   line-height: 46px;
   margin: 0 auto 3em;
   text-transform: uppercase;
-  width: 340px;
+  width: 350px;
 }
 .browse-view .orderby-displaynumber:after,
 .browse-view .product-additional-info:after,
@@ -9393,18 +9400,24 @@ th {
   display: table-cell;
   position: relative;
   vertical-align: middle;
-  width: 60%;
+  width: 100%;
+  text-align: center;
+  padding-top: 20%;
 }
 .gkStoreHeader small {
-  color: #999;
-  font-size: 12px;
-  letter-spacing: 12px;
-  text-transform: uppercase;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 10px;
+  padding-top: 30px;
 }
 .gkStoreHeader h1 {
-  color: #000 !important;
-  letter-spacing: 5px;
+  color: #fff !important;
+  font-size: 60px;
+  font-weight: normal;
   text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: 20px;
 }
 .gkStoreImage {
   display: table-cell;
@@ -9482,10 +9495,10 @@ th {
   }
   .gkStoreHeader h1 {
     font-size: 48px;
-    letter-spacing: 2px;
+    /*letter-spacing: 2px;*/
   }
   .gkStoreHeader small {
-    letter-spacing: 4px;
+    /*letter-spacing: 4px;*/
   }
   #gkHeaderMod .gkStoreInfo .btn-border {
     margin-top: 40px;
@@ -11321,8 +11334,8 @@ a.in {
   #k2Container.single-page > .header > img,
   #k2Container.blog-page > .header > img {
     height: 120% !important;
-    width: auto !important;
-    max-width: none !important;
+    /*width: auto !important;*/
+    /*max-width: none !important;*/
   }
 }
 

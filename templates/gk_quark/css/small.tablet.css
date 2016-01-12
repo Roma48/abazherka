@@ -43,9 +43,9 @@ h1,
 .blog-page > .header > img,
 #k2Container.single-page > .header > img,
 #k2Container.blog-page > .header > img {
-  height: 120% !important;
-  width: auto !important;
-  max-width: none !important;
+  /*height: 120% !important;*/
+  /*width: auto !important;*/
+  /*max-width: none !important;*/
 }
 .mouse-icon {
   display: none;
@@ -240,4 +240,9 @@ div.PricesalesPrice {
   max-width: 100% !important;
   width: 100% !important;
   text-align: center !important;
+}
+
+.box.quark-gallery .nspImageWrapper {
+  max-width: 100%;
+  height: 200px;
 }

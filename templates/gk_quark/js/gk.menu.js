@@ -141,7 +141,7 @@ jQuery(document).ready(function() {
 			var current = parseInt(page_nav.css('top'));
 			var h = header.outerHeight() < 150 ? 150 : header.outerHeight();
 			
-			if(new_scroll_value >= h) {
+			if(new_scroll_value > 100) {
 				if(
 					!page_nav.hasClass('gk-fixed-nav')
 				) {
@@ -153,13 +153,17 @@ jQuery(document).ready(function() {
 					if(image_logo_exists && dark_logo_img) {
 						logo_img.attr('src', dark_logo_img);
 					}
+
+					console.log(new_scroll_value);
+
+					page_nav.css('top', (new_scroll_value < 50 ? current - local_diff : -45) + "px");
 				}
 			
-				if(new_scroll_value >= prev_scroll_value) {
-					page_nav.css('top', (current - local_diff >= -150 ? current - local_diff : -150) + "px");
-				} else {
-					page_nav.css('top', (current - local_diff <= -45 ? current - local_diff : -45) + "px");
-				}
+				//if(new_scroll_value >= prev_scroll_value) {
+				//	page_nav.css('top', (current - local_diff >= -150 ? current - local_diff : -45) + "px");
+				//} else {
+				//	page_nav.css('top', (current - local_diff <= -45 ? current - local_diff : -45) + "px");
+				//}
 			} else {
 				if(page_nav.hasClass('gk-fixed-nav')) {
 					page_nav.removeClass('gk-fixed-nav');

@@ -7,7 +7,7 @@
   width: 100% !important;
 }
 #gkPageContent {
-  padding: 50px 0 50px;
+  padding: 100px 0 50px;
 }
 #gkSidebar .box {
   padding: 10px !important;
@@ -375,8 +375,8 @@ body .gkCols6 .box.gkmod-more.gkmod-last-5:nth-last-child(5) {
   padding: 0 0 20px 0;
 }
 .box.quark-gallery .nspImageWrapper {
-  /*max-width: 50%;*/
-  height: 200px;
+  max-width: 50%;
+  /*height: 200px;*/
 }
 .main-image img.product-image,
 .featured-view .spacer img,

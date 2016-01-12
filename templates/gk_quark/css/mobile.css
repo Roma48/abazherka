@@ -639,7 +639,7 @@ fieldset.only label {
   #gkHeaderMod .gkStoreHeader {
     display: block;
     overflow: visible;
-    padding: 0;
+    /*padding: 0;*/
     width: 100%;
   }
   #gkHeaderMod .gkStoreInfo {
@@ -722,10 +722,28 @@ fieldset.only label {
 }
 .orderby-displaynumber .display-number {
   clear: both;
-  float: left;
+  /*float: left;*/
   margin-top: 10px;
   min-width: 150px !important;
-  text-align: left;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+}
+
+.browse-view .orderby-displaynumber .display-number, .browse-view .product-additional-info .display-number, .productdetails-view .orderby-displaynumber .display-number, .productdetails-view .product-additional-info .display-number {
+  text-align: center;
+}
+
+.browse-view .orderby-displaynumber {
+  line-height: 20px;
+}
+
+.orderlistcontainer {
+  display: inline-block;
+}
+
+.browse-view .orderby-displaynumber, .browse-view .product-additional-info, .productdetails-view .orderby-displaynumber, .productdetails-view .product-additional-info {
+  width: 100%;
 }
 .vertical-separator {
   padding: 0 !important;
@@ -822,4 +840,20 @@ fieldset.only label {
 .product .catProductTitle,
 .frontpage h4.nspHeader {
   margin-top: 10px;
+}
+
+.big-photo-button {
+  display: none !important;
+}
+
+.contains-cart #gkMobileMenu {
+  right: 10px;
+}
+
+#gk-cart-btn {
+  right: 80px !important;
+}
+
+#gkHeaderNav .gkMainMenu + #gkMobileMenu {
+  padding-top: 4px;
 }

@@ -116,10 +116,10 @@
   }
   .gkMainMenu,
   #gkHeaderNav .gkMainMenu {
-    margin-top: 6px !important;
+    /*margin-top: 6px !important;*/
   }
   #gkHeaderNav .gkMainMenu + #gkMobileMenu {
-    padding-top: 4px;
+    padding-top: 6px;
   }
   .gk-fixed-nav #gkLogo,
   .gk-fixed-nav #gkMobileMenu {
