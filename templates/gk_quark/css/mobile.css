@@ -857,3 +857,7 @@ fieldset.only label {
 #gkHeaderNav .gkMainMenu + #gkMobileMenu {
   padding-top: 4px;
 }
+
+#gkHeaderMod img {
+  height: 150% !important;
+}

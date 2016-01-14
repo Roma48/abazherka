@@ -246,3 +246,7 @@ div.PricesalesPrice {
   max-width: 100%;
   height: 200px;
 }
+
+#gkHeaderMod img {
+  width: auto;
+}
