@@ -1,13 +1,15 @@
 <?php
 /**
  * @package	AcyMailing for Joomla!
- * @version	4.9.3
+ * @version	5.1.0
  * @author	acyba.com
  * @copyright	(C) 2009-2015 ACYBA S.A.R.L. All rights reserved.
  * @license	GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
  */
 defined('_JEXEC') or die('Restricted access');
 ?><?php
+
+require(__DIR__ . '/../inc/recaptcha/src/autoload.php');
 
 class SubController extends acymailingController{
 
@@ -131,7 +133,22 @@ class SubController extends acymailingController{
 
 		$alreadyExists = $userClass->get($user->email);
 
-		if(!empty($alreadyExists->subid)){
+		$gRecaptchaResponse = JFactory::getApplication()->input->get('g-recaptcha-response');
+
+		$recaptcha = new \ReCaptcha\ReCaptcha('6LeMRRUTAAAAAHdF9jQTmxERZae8ggJnYDoZ2sxl');
+		$resp = $recaptcha->verify($gRecaptchaResponse, $_SERVER['REMOTE_ADDR']);
+
+		$captcha = false;
+
+		if ($resp->isSuccess()) {
+			$captcha = true;
+		} else {
+			$errors = $resp->getErrorCodes();
+			echo "<script>alert('Captcha field is required'); window.history.go(-1);</script>";
+			exit;
+		}
+
+		if(!empty($alreadyExists->subid) || !$captcha){
 			if(!empty($alreadyExists->userid)) unset($user->name);
 			$user->subid = $alreadyExists->subid;
 			$currentSubscription = $userClass->getSubscriptionStatus($alreadyExists->subid);
@@ -247,7 +264,7 @@ class SubController extends acymailingController{
 			if($allowSubscriptionModifications){
 				if($statusAdd == 2){
 					if($userClass->confirmationSentSuccess){
-						$msg = JText::_('CONFIRMATION_SENT');
+						$msg = 'CONFIRMATION_SENT';
 						$code = 2;
 						$msgtype = 'success';
 					}else{
@@ -257,23 +274,23 @@ class SubController extends acymailingController{
 					}
 				}else{
 					if($insertMessage){
-						$msg = JText::_('SUBSCRIPTION_OK');
+						$msg = 'SUBSCRIPTION_OK';
 						$code = 3;
 						$msgtype = 'success';
 					}elseif($updateMessage){
 
-						$msg = JText::_('SUBSCRIPTION_UPDATED_OK');
+						$msg = 'SUBSCRIPTION_UPDATED_OK';
 						$code = 4;
 						$msgtype = 'success';
 					}else{
-						$msg = JText::_('ALREADY_SUBSCRIBED');
+						$msg = 'ALREADY_SUBSCRIBED';
 						$code = 5;
 						$msgtype = 'success';
 					}
 				}
 			}else{
 				if($modifySubscriptionSuccess){
-					$msg = JText::_('IDENTIFICATION_SENT');
+					$msg = 'IDENTIFICATION_SENT';
 					$code = 6;
 					$msgtype = 'warning';
 				}else{
@@ -281,6 +298,15 @@ class SubController extends acymailingController{
 					$code = 8;
 					$msgtype = 'error';
 				}
+			}
+
+			if($msg == strtoupper($msg)){
+				$source = JRequest::getCmd('acy_source');
+				if(strpos($source, 'module_') !== false){
+					$moduleId = '_'.strtoupper($source);
+					if(JText::_($msg.$moduleId) != $msg.$moduleId) $msg = $msg.$moduleId;
+				}
+				$msg = JText::_($msg);
 			}
 
 			$replace = array();
@@ -314,6 +340,7 @@ class SubController extends acymailingController{
 			$mailer->report = false;
 			foreach($user as $field => $value) $mailer->addParam('user:'.$field,$value);
 			$mailer->addParam('user:subscription',$listsubClass->getSubscriptionString($user->subid));
+			$mailer->addParam('user:subscriptiondates',$listsubClass->getSubscriptionString($user->subid, true));
 			$mailer->addParam('user:ip',$userHelper->getIP());
 			if(!empty($userClass->geolocData)){
 				foreach($userClass->geolocData as $map=>$value){

@@ -1,7 +1,7 @@
 <?php
 /**
  * @package	AcyMailing for Joomla!
- * @version	4.9.3
+ * @version	5.1.0
  * @author	acyba.com
  * @copyright	(C) 2009-2015 ACYBA S.A.R.L. All rights reserved.
  * @license	GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
@@ -224,7 +224,7 @@ class acyqueueHelper{
 		$this->statsAdd($statsAdd);
 		$this->_queueUpdate($queueUpdate);
 
-		if($mailHelper->SMTPKeepAlive) $mailHelper->SmtpClose();
+		if($mailHelper->SMTPKeepAlive) $mailHelper->smtpClose();
 
 		if(!empty($this->total) AND $currentMail >= $this->total){
 			$this->finish = true;
@@ -260,7 +260,7 @@ class acyqueueHelper{
 			$this->db->setQuery($query);
 			if(!$this->db->query()){
 				$status = false;
-				$this->_display($this->db->getErrorNum.' : '.$this->db->getErrorMsg());
+				$this->_display($this->db->getErrorNum().' : '.$this->db->getErrorMsg());
 			}else{
 				$nbdeleted = $this->db->getAffectedRows();
 				if($nbdeleted != $nbsub){

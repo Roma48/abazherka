@@ -54,8 +54,8 @@ class JConfig {
 	public $sef_suffix = '0';
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
-	public $log_path = '/home/roma/Projects/abazherka/logs';
-	public $tmp_path = '/home/roma/Projects/abazherka/tmp';
+	public $log_path = '/Users/romapaliy/projects/abazherka/logs';
+	public $tmp_path = '/Users/romapaliy/projects/abazherka/tmp';
 	public $lifetime = '15';
 	public $session_handler = 'database';
 	public $memcache_persist = '1';

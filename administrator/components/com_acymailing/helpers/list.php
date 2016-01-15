@@ -1,7 +1,7 @@
 <?php
 /**
  * @package	AcyMailing for Joomla!
- * @version	4.9.3
+ * @version	5.1.0
  * @author	acyba.com
  * @copyright	(C) 2009-2015 ACYBA S.A.R.L. All rights reserved.
  * @license	GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
@@ -16,6 +16,7 @@ class acylistHelper{
 	var $forceConf = false;
 	var $survey = '';
 	var $campaigndelay = 0;
+	var $skipedfollowups = 0;
 
 	function subscribe($subid,$listids){
 		$app = JFactory::getApplication();
@@ -49,6 +50,7 @@ class acylistHelper{
 			$mailer->addParam('survey',$this->survey);
 			$listSubClass= acymailing_get('class.listsub');
 			$mailer->addParam('user:subscription',$listSubClass->getSubscriptionString($subscriber->subid));
+			$mailer->addParam('user:subscriptiondates',$listSubClass->getSubscriptionString($subscriber->subid, true));
 			$mailer->addParamInfo();
 			$subscriber->ip = $ipClass->getIP();
 			foreach($subscriber as $fieldname => $value) $mailer->addParam('user:'.$fieldname,$value);

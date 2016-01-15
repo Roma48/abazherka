@@ -642,8 +642,15 @@ jQuery(document).ready(function() {
 	var newsletter_submit = jQuery('#gk-newsletter-submit');
 	
 	if(newsletter_submit.length) {
-		newsletter_submit.click(function() {
-			jQuery.cookie('gk-newsletter-popup', 1, { expires: 30, path: '/' });
+		newsletter_submit.click(function(e) {
+
+			var captchaField = grecaptcha.getResponse();
+				if(captchaField.length < 1){
+					e.preventDefault();
+					return false;
+				} else {
+					jQuery.cookie('gk-newsletter-popup', 1, { expires: 30, path: '/' });
+				}
 		});
 		
 		jQuery('#gk-newsletter-popup-close').click(function(e) {

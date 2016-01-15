@@ -44,7 +44,7 @@ h1,
 #k2Container.single-page > .header > img,
 #k2Container.blog-page > .header > img {
   /*height: 120% !important;*/
-  /*width: auto !important;*/
+  width: auto !important;
   /*max-width: none !important;*/
 }
 .mouse-icon {

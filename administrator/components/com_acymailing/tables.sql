@@ -17,6 +17,7 @@ CREATE TABLE IF NOT EXISTS `#__acymailing_fields` (
 	`required` tinyint unsigned NOT NULL DEFAULT '0',
 	`backend` tinyint unsigned NOT NULL DEFAULT '1',
 	`frontcomp` tinyint unsigned NOT NULL DEFAULT '0',
+	`frontform` tinyint unsigned NOT NULL DEFAULT '1',
 	`default` varchar(250) DEFAULT NULL,
 	`listing` tinyint unsigned DEFAULT NULL,
 	`frontlisting` tinyint unsigned NOT NULL DEFAULT '0',
@@ -122,6 +123,7 @@ CREATE TABLE IF NOT EXISTS `#__acymailing_mail` (
 	`userid` int unsigned DEFAULT NULL,
 	`alias` varchar(250) DEFAULT NULL,
 	`attach` text,
+	`favicon` text,
 	`html` tinyint NOT NULL DEFAULT '1',
 	`tempid` smallint NOT NULL DEFAULT '0',
 	`key` varchar(200) DEFAULT NULL,
@@ -297,4 +299,26 @@ CREATE TABLE IF NOT EXISTS `#__acymailing_geolocation` (
 	PRIMARY KEY (`geolocation_id`),
 	KEY `geolocation_type` (`geolocation_subid`, `geolocation_type`),
 	KEY `geolocation_ip_created` (`geolocation_ip`, `geolocation_created`)
+) /*!40100 DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci*/;
+
+CREATE TABLE IF NOT EXISTS `#__acymailing_action` (
+	`action_id` int unsigned NOT NULL AUTO_INCREMENT,
+	`name` varchar(255) DEFAULT NULL,
+	`frequency` int unsigned NOT NULL,
+	`nextdate` int unsigned NOT NULL,
+	`description` text,
+	`server` varchar(255) NOT NULL,
+	`port` varchar(50) NOT NULL,
+	`connection_method` varchar(10) NOT NULL DEFAULT '0',
+	`secure_method` varchar(10) NOT NULL DEFAULT '0',
+	`self_signed` tinyint NOT NULL DEFAULT '0',
+	`username` varchar(255) NOT NULL,
+	`password` varchar(50) NOT NULL,
+	`userid` int unsigned DEFAULT NULL,
+	`conditions` text,
+	`actions` text,
+	`report` text,
+	`published` tinyint NOT NULL DEFAULT '0',
+	`ordering` smallint unsigned NULL DEFAULT '0',
+	PRIMARY KEY (`action_id`)
 ) /*!40100 DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci*/;

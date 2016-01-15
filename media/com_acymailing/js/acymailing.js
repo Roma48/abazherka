@@ -1,6 +1,6 @@
 /**
  * @package    AcyMailing for Joomla!
- * @version    4.9.3
+ * @version    5.1.0
  * @author     acyba.com
  * @copyright  (C) 2009-2015 ACYBA S.A.R.L. All rights reserved.
  * @license    GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
@@ -487,7 +487,22 @@ function checkChangeForm(){
 				} else {
 					var id = elem.getAttribute('id');
 					this.currentBox = id;
-					jQuery('#modal-' + id).modal('show');
+
+					try {
+						jQuery('#modal-' + id).modal('show');
+					} catch(e) {
+						if(w.SqueezeBox !== undefined) {
+							if(url) {
+								elem.href = url;
+							}
+							if(w.SqueezeBox.open !== undefined){
+								SqueezeBox.open(elem, {parse: 'rel'});
+							}else if(w.SqueezeBox.fromElement !== undefined){
+								SqueezeBox.fromElement(elem);
+							}
+						}
+					}
+
 					if(url) {
 						if(document.getElementById('modal-' + id + '-container'))
 							jQuery('#modal-' + id + '-container').find('iframe').attr('src', url);
@@ -495,7 +510,8 @@ function checkChangeForm(){
 							jQuery('#modal-' + id).find('iframe').attr('src', url);
 					}
 				}
-			} catch(e) {}
+			} catch(e) {
+			}
 			return false;
 		},
 		closeBox: function(name) {

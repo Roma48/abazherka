@@ -1,7 +1,7 @@
 <?php
 /**
  * @package	AcyMailing for Joomla!
- * @version	4.9.3
+ * @version	5.1.0
  * @author	acyba.com
  * @copyright	(C) 2009-2015 ACYBA S.A.R.L. All rights reserved.
  * @license	GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
@@ -16,15 +16,15 @@ class listsType{
 		$this->data = $listClass->getLists('listid');
 
 		$this->values = array();
-		$this->values[] = JHTML::_('select.option', '0', JText::_('ALL_LISTS') );
+		$this->values[] = JHTML::_('select.option', '0', JText::_('ALL_LISTS'));
 		foreach($this->data as $onelist){
-			$this->values[] = JHTML::_('select.option', $onelist->listid, $onelist->name );
+			$this->values[] = JHTML::_('select.option', $onelist->listid, $onelist->name);
 		}
 	}
 
-	function display($map,$value,$js = true){
+	function display($map, $value, $js = true){
 		$onchange = $js ? 'onchange="document.adminForm.limitstart.value=0;document.adminForm.submit( );"' : '';
-		return JHTML::_('select.genericlist',   $this->values, $map, 'class="inputbox" style="max-width:220px" size="1" '.$onchange, 'value', 'text', (int) $value,str_replace(array('[',']'),array('_',''),$map) );
+		return JHTML::_('select.genericlist', $this->values, $map, 'class="inputbox" style="max-width:220px" size="1" '.$onchange, 'value', 'text', (int)$value, str_replace(array('[', ']'), array('_', ''), $map));
 	}
 
 	function getData(){

@@ -9425,6 +9425,7 @@ th {
   text-transform: uppercase;
   line-height: 1;
   margin-bottom: 20px;
+  text-shadow: 1px 1px black;
 }
 .gkStoreImage {
   display: table-cell;
@@ -11325,7 +11326,7 @@ a.in {
   max-width: 100%;
 }
 
-#gkMainbody img {
+#gkMainbody #product-tabs-content img {
   max-width: 100%;
 }
 
@@ -11341,7 +11342,7 @@ a.in {
   #k2Container.single-page > .header > img,
   #k2Container.blog-page > .header > img {
     height: 120% !important;
-    /*width: auto !important;*/
+    width: auto !important;
     /*max-width: none !important;*/
   }
 }
@@ -11377,4 +11378,10 @@ a.in {
   }
 }
 
-
+.g-recaptcha {
+  line-height: 0;
+  display: inline-block;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

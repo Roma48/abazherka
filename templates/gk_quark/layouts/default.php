@@ -158,6 +158,8 @@ $tpl_page_suffix = $page_suffix_output . $dark_bg . $error_page != '' ? ' class=
 	#gk-page-preloader { background: #fff url('<?php echo $this->API->URLtemplate(); ?>/images/preloaders/<?php echo $this->API->get('page_preloader_img', 'default.gif'); ?>') no-repeat center center; height: 100%; position: fixed; width: 100%; z-index: 10000000; }
 	</style>
 	<?php endif; ?>
+
+	<?php JHtml::script('https://www.google.com/recaptcha/api.js'); ?>
 </head>
 <body<?php echo $tpl_page_suffix; ?><?php if($this->browser->get("tablet") == true) echo ' data-tablet="true"'; ?><?php if($this->browser->get("mobile") == true) echo ' data-mobile="true"'; ?><?php $this->layout->generateLayoutWidths(); ?> data-zoom-size="<?php echo $this->API->get('gk_zoom_size', '150'); ?>" data-parallax="<?php echo ($this->API->get('js_parallax', '1') == '1') ? 'true' : 'false'; ?>">	
 
