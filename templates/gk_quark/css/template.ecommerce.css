@@ -11385,3 +11385,20 @@ a.in {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+#gkMainbody .col.col-4 {
+  width: 25%;
+  float: left;
+  padding: 10px;
+}
+
+#gkMainbody .col.col-4 img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+#gkMainbody .col.col-4 a {
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+}
