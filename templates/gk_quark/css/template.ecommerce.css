@@ -11386,10 +11386,14 @@ a.in {
   margin-bottom: 20px;
 }
 
+#gkMainbody .content {
+  max-width: 1400px !important;
+}
+
 #gkMainbody .col.col-4 {
   width: 25%;
   float: left;
-  padding: 10px;
+  padding: 25px;
 }
 
 #gkMainbody .col.col-4 img {
