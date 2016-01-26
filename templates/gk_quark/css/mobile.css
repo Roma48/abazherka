@@ -861,3 +861,9 @@ fieldset.only label {
 #gkHeaderMod img {
   height: 150% !important;
 }
+
+#gkMainbody .col.col-4 {
+  width: 100%;
+  float: left;
+  padding: 8%;
+}

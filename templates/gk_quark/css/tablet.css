@@ -408,3 +408,9 @@ body .gkCols6 .box.gkmod-more.gkmod-last-5:nth-last-child(5) {
 .blog-page .item-list .item-view {
   margin: 0;
 }
+
+#gkMainbody .col.col-4 {
+  width: 50%;
+  float: left;
+  padding: 5%;
+}

@@ -11399,10 +11399,20 @@ a.in {
 #gkMainbody .col.col-4 img {
   max-width: 100%;
   border-radius: 50%;
+  margin-bottom: 10px;
 }
 
 #gkMainbody .col.col-4 a {
   text-align: center;
   width: 100%;
   display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+#gkMainbody .col.col-4 a:hover {
+  color: #eba034;
 }
