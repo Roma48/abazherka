@@ -51,6 +51,7 @@ if ( VmConfig::get('showCategory',1) and empty($this->keyword)) {
 		$verticalseparator = " vertical-separator";
 	?>
 	<div class="category-view">
+	<h1>hello</h1>
 		<?php // Start the Output
 		if(!empty($this->category->children)) {
 		foreach ( $this->category->children as $category ) { ?>
@@ -73,7 +74,7 @@ if ( VmConfig::get('showCategory',1) and empty($this->keyword)) {
 			$caturl = JRoute::_ ( 'index.php?option=com_virtuemart&view=category&virtuemart_category_id=' . $category->virtuemart_category_id );
 
 				// Show Category ?>
-				<div class="category floatleft<?php echo $category_cellwidth . $show_vertical_separator ?>">
+				<div class="category floatleft <?php echo $category_cellwidth . $show_vertical_separator ?>">
 					<div class="spacer">
 						<a href="<?php echo $caturl ?>" title="<?php echo $category->category_name ?>"><?php echo $category->images[0]->displayMediaThumb("",false); ?></a>
 						

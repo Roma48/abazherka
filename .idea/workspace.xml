@@ -2,8 +2,372 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2273535-6a34-4f2b-a60c-5b3639bf12e8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/gk_quark/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/.tmb/l1_am9vbWxhX2JsYWNrLmdpZg1434361286.png" afterPath="$PROJECT_DIR$/images/.tmb/l1_am9vbWxhX2JsYWNrLmdpZg1434361286.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/.tmb/l1_am9vbWxhX2dyZWVuLmdpZg1434361286.png" afterPath="$PROJECT_DIR$/images/.tmb/l1_am9vbWxhX2dyZWVuLmdpZg1434361286.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/.tmb/l1_am9vbWxhX2xvZ29fYmxhY2suanBn1434361286.png" afterPath="$PROJECT_DIR$/images/.tmb/l1_am9vbWxhX2xvZ29fYmxhY2suanBn1434361286.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/.tmb/l1_cG93ZXJlZF9ieS5wbmc1434361286.png" afterPath="$PROJECT_DIR$/images/.tmb/l1_cG93ZXJlZF9ieS5wbmc1434361286.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/01.34.22.png" afterPath="$PROJECT_DIR$/images/01.34.22.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/01.34.33.png" afterPath="$PROJECT_DIR$/images/01.34.33.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/01.35.30.png" afterPath="$PROJECT_DIR$/images/01.35.30.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/123456.png" afterPath="$PROJECT_DIR$/images/123456.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/123qaz.png" afterPath="$PROJECT_DIR$/images/123qaz.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/23.56.27.png" afterPath="$PROJECT_DIR$/images/23.56.27.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/IMG_1868.JPG" afterPath="$PROJECT_DIR$/images/IMG_1868.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/banners/3.jpg" afterPath="$PROJECT_DIR$/images/banners/3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/banners/ZYWPlEb3jsM.jpg" afterPath="$PROJECT_DIR$/images/banners/ZYWPlEb3jsM.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/banners/_ibrgA3Bxc4.jpg" afterPath="$PROJECT_DIR$/images/banners/_ibrgA3Bxc4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/banners/marina.jpg" afterPath="$PROJECT_DIR$/images/banners/marina.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/banners/video123.png" afterPath="$PROJECT_DIR$/images/banners/video123.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/banners/wedding-day-28_.jpg" afterPath="$PROJECT_DIR$/images/banners/wedding-day-28_.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/1/0bfc0ce99892772fc285e10ee3943d9a_XL.jpg" afterPath="$PROJECT_DIR$/images/blog/1/0bfc0ce99892772fc285e10ee3943d9a_XL.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/1/11181962_933425960046840_1926039997818723142_n.jpg" afterPath="$PROJECT_DIR$/images/blog/1/11181962_933425960046840_1926039997818723142_n.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/1/11224358_933425923380177_5538150586052131964_n.jpg" afterPath="$PROJECT_DIR$/images/blog/1/11224358_933425923380177_5538150586052131964_n.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/1/11406768_933426346713468_7067669024738382516_n.jpg" afterPath="$PROJECT_DIR$/images/blog/1/11406768_933426346713468_7067669024738382516_n.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/1/1538837_933426320046804_2977991749024387749_n.jpg" afterPath="$PROJECT_DIR$/images/blog/1/1538837_933426320046804_2977991749024387749_n.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/1/1795521_933425963380173_2406021287510023798_n.jpg" afterPath="$PROJECT_DIR$/images/blog/1/1795521_933425963380173_2406021287510023798_n.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/1/28b8f12309e9ac4afaade20e5d04ffc2_L.jpg" afterPath="$PROJECT_DIR$/images/blog/1/28b8f12309e9ac4afaade20e5d04ffc2_L.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/1/3a9297ca78720986dccc8a65ce802a33_L.jpg" afterPath="$PROJECT_DIR$/images/blog/1/3a9297ca78720986dccc8a65ce802a33_L.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/1/5fd45095a868b007b05013834dba7a95_L.jpg" afterPath="$PROJECT_DIR$/images/blog/1/5fd45095a868b007b05013834dba7a95_L.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/1/8012f255a337782bffaadea968723f36_XL.jpg" afterPath="$PROJECT_DIR$/images/blog/1/8012f255a337782bffaadea968723f36_XL.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/1/cup1.jpg" afterPath="$PROJECT_DIR$/images/blog/1/cup1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/1/cup2.jpg" afterPath="$PROJECT_DIR$/images/blog/1/cup2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/1/cup3.jpg" afterPath="$PROJECT_DIR$/images/blog/1/cup3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/1/e303e2027514497aaa0603a129a3eb42_L.jpg" afterPath="$PROJECT_DIR$/images/blog/1/e303e2027514497aaa0603a129a3eb42_L.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/1/fl2.jpg" afterPath="$PROJECT_DIR$/images/blog/1/fl2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/1/lf1.jpg" afterPath="$PROJECT_DIR$/images/blog/1/lf1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/1/mk2.jpg" afterPath="$PROJECT_DIR$/images/blog/1/mk2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/1/mk3.jpg" afterPath="$PROJECT_DIR$/images/blog/1/mk3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/1/mk4.jpg" afterPath="$PROJECT_DIR$/images/blog/1/mk4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/1/mk5.jpg" afterPath="$PROJECT_DIR$/images/blog/1/mk5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/1/mk7.jpg" afterPath="$PROJECT_DIR$/images/blog/1/mk7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/1/mk8.jpg" afterPath="$PROJECT_DIR$/images/blog/1/mk8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/1/work2.jpg" afterPath="$PROJECT_DIR$/images/blog/1/work2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/1/work3.jpg" afterPath="$PROJECT_DIR$/images/blog/1/work3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/1/work4.jpg" afterPath="$PROJECT_DIR$/images/blog/1/work4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/1/work5.jpg" afterPath="$PROJECT_DIR$/images/blog/1/work5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/1/work6.jpg" afterPath="$PROJECT_DIR$/images/blog/1/work6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/1/він3.jpg" afterPath="$PROJECT_DIR$/images/blog/1/він3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/1/він4.jpg" afterPath="$PROJECT_DIR$/images/blog/1/він4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/123456.png" afterPath="$PROJECT_DIR$/images/blog/123456.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/birthday/bthd1.jpg" afterPath="$PROJECT_DIR$/images/blog/birthday/bthd1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/birthday/bthd2.jpg" afterPath="$PROJECT_DIR$/images/blog/birthday/bthd2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/birthday/bthd3.jpg" afterPath="$PROJECT_DIR$/images/blog/birthday/bthd3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/birthday/bthd4.jpg" afterPath="$PROJECT_DIR$/images/blog/birthday/bthd4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/birthday/bthd5.jpg" afterPath="$PROJECT_DIR$/images/blog/birthday/bthd5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/birthday/bthd6.jpg" afterPath="$PROJECT_DIR$/images/blog/birthday/bthd6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/birthday/bthd7.jpg" afterPath="$PROJECT_DIR$/images/blog/birthday/bthd7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/birthday/bthd8.jpg" afterPath="$PROJECT_DIR$/images/blog/birthday/bthd8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/birthday/bthd_main.jpg" afterPath="$PROJECT_DIR$/images/blog/birthday/bthd_main.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/flbox/flbox1.jpg" afterPath="$PROJECT_DIR$/images/blog/flbox/flbox1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/flbox/flbox2.jpg" afterPath="$PROJECT_DIR$/images/blog/flbox/flbox2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/flbox/flbox3.jpg" afterPath="$PROJECT_DIR$/images/blog/flbox/flbox3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/flbox/flbox4.jpg" afterPath="$PROJECT_DIR$/images/blog/flbox/flbox4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/flbox/flboxmain.jpg" afterPath="$PROJECT_DIR$/images/blog/flbox/flboxmain.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/ind_day/ind_1.jpg" afterPath="$PROJECT_DIR$/images/blog/ind_day/ind_1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/ind_day/ind_2.jpg" afterPath="$PROJECT_DIR$/images/blog/ind_day/ind_2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/ind_day/ind_3.jpg" afterPath="$PROJECT_DIR$/images/blog/ind_day/ind_3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/ind_day/ind_4.jpg" afterPath="$PROJECT_DIR$/images/blog/ind_day/ind_4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/ind_day/ind_5.jpg" afterPath="$PROJECT_DIR$/images/blog/ind_day/ind_5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/ind_day/ind_main.jpg" afterPath="$PROJECT_DIR$/images/blog/ind_day/ind_main.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/main.jpg" afterPath="$PROJECT_DIR$/images/blog/main.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/skw/skw1.jpg" afterPath="$PROJECT_DIR$/images/blog/skw/skw1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/skw/skw2.jpg" afterPath="$PROJECT_DIR$/images/blog/skw/skw2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/skw/skw3.jpg" afterPath="$PROJECT_DIR$/images/blog/skw/skw3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/skw/skw_main.jpg" afterPath="$PROJECT_DIR$/images/blog/skw/skw_main.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/srhwedd/srhw1.jpg" afterPath="$PROJECT_DIR$/images/blog/srhwedd/srhw1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/srhwedd/srhw2.jpg" afterPath="$PROJECT_DIR$/images/blog/srhwedd/srhw2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/srhwedd/srhw3.jpg" afterPath="$PROJECT_DIR$/images/blog/srhwedd/srhw3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/srhwedd/srhw4.jpg" afterPath="$PROJECT_DIR$/images/blog/srhwedd/srhw4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/srhwedd/srhw5.jpg" afterPath="$PROJECT_DIR$/images/blog/srhwedd/srhw5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/srhwedd/srhw6.jpg" afterPath="$PROJECT_DIR$/images/blog/srhwedd/srhw6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/srhwedd/srhw7.jpg" afterPath="$PROJECT_DIR$/images/blog/srhwedd/srhw7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/srhwedd/srhw8.jpg" afterPath="$PROJECT_DIR$/images/blog/srhwedd/srhw8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/srhwedd/srhw9.jpg" afterPath="$PROJECT_DIR$/images/blog/srhwedd/srhw9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/srhwedd/srhw_main.jpg" afterPath="$PROJECT_DIR$/images/blog/srhwedd/srhw_main.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/sunmoon/sunmoon1.jpg" afterPath="$PROJECT_DIR$/images/blog/sunmoon/sunmoon1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/sunmoon/sunmoon2.jpg" afterPath="$PROJECT_DIR$/images/blog/sunmoon/sunmoon2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/sunmoon/sunmoon3.jpg" afterPath="$PROJECT_DIR$/images/blog/sunmoon/sunmoon3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/sunmoon/sunmoon4.jpg" afterPath="$PROJECT_DIR$/images/blog/sunmoon/sunmoon4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/sunmoon/sunmoon_main.jpg" afterPath="$PROJECT_DIR$/images/blog/sunmoon/sunmoon_main.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/demo/gallery/IMG_0562.JPG" afterPath="$PROJECT_DIR$/images/demo/gallery/IMG_0562.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/demo/gallery/flowerbox.png" afterPath="$PROJECT_DIR$/images/demo/gallery/flowerbox.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/flowers/1.jpg" afterPath="$PROJECT_DIR$/images/flowers/1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/flowers/10_1.jpg" afterPath="$PROJECT_DIR$/images/flowers/10_1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/flowers/11.jpg" afterPath="$PROJECT_DIR$/images/flowers/11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/flowers/12.jpg" afterPath="$PROJECT_DIR$/images/flowers/12.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/flowers/13_1.jpg" afterPath="$PROJECT_DIR$/images/flowers/13_1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/flowers/14_1.jpg" afterPath="$PROJECT_DIR$/images/flowers/14_1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/flowers/15_1.jpg" afterPath="$PROJECT_DIR$/images/flowers/15_1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/flowers/1_2.jpg" afterPath="$PROJECT_DIR$/images/flowers/1_2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/flowers/2.jpg" afterPath="$PROJECT_DIR$/images/flowers/2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/flowers/2_1.jpg" afterPath="$PROJECT_DIR$/images/flowers/2_1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/flowers/3.jpg" afterPath="$PROJECT_DIR$/images/flowers/3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/flowers/3_1.jpg" afterPath="$PROJECT_DIR$/images/flowers/3_1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/flowers/4.jpg" afterPath="$PROJECT_DIR$/images/flowers/4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/flowers/4_1.jpg" afterPath="$PROJECT_DIR$/images/flowers/4_1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/flowers/5.jpg" afterPath="$PROJECT_DIR$/images/flowers/5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/flowers/5_1.jpg" afterPath="$PROJECT_DIR$/images/flowers/5_1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/flowers/6.jpg" afterPath="$PROJECT_DIR$/images/flowers/6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/flowers/6_1.jpg" afterPath="$PROJECT_DIR$/images/flowers/6_1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/flowers/7_1.jpg" afterPath="$PROJECT_DIR$/images/flowers/7_1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/flowers/8.jpg" afterPath="$PROJECT_DIR$/images/flowers/8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/flowers/9_1.jpg" afterPath="$PROJECT_DIR$/images/flowers/9_1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/flowers/flowerbox2.png" afterPath="$PROJECT_DIR$/images/flowers/flowerbox2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/flowers/k1.jpg" afterPath="$PROJECT_DIR$/images/flowers/k1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/flowers/k2.jpg" afterPath="$PROJECT_DIR$/images/flowers/k2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/flowers/k8.jpg" afterPath="$PROJECT_DIR$/images/flowers/k8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/flowers/k9.jpg" afterPath="$PROJECT_DIR$/images/flowers/k9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/headers/2_qKKyMV5Hs.jpg" afterPath="$PROJECT_DIR$/images/headers/2_qKKyMV5Hs.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/headers/IMG_12676.jpg" afterPath="$PROJECT_DIR$/images/headers/IMG_12676.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/headers/dIjEf-TPx8E.jpg" afterPath="$PROJECT_DIR$/images/headers/dIjEf-TPx8E.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/headers/k5sd98S3eK8.jpg" afterPath="$PROJECT_DIR$/images/headers/k5sd98S3eK8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/flb_1.jpg" afterPath="$PROJECT_DIR$/images/portfolio/flb_1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/flb_2.jpg" afterPath="$PROJECT_DIR$/images/portfolio/flb_2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/ins1.jpg" afterPath="$PROJECT_DIR$/images/portfolio/ins1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/ins2.jpg" afterPath="$PROJECT_DIR$/images/portfolio/ins2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/it1.jpg" afterPath="$PROJECT_DIR$/images/portfolio/it1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/it2.jpg" afterPath="$PROJECT_DIR$/images/portfolio/it2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/it3.jpg" afterPath="$PROJECT_DIR$/images/portfolio/it3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/it4.jpg" afterPath="$PROJECT_DIR$/images/portfolio/it4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/it5.jpg" afterPath="$PROJECT_DIR$/images/portfolio/it5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/it6.jpg" afterPath="$PROJECT_DIR$/images/portfolio/it6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/red1.jpg" afterPath="$PROJECT_DIR$/images/portfolio/red1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/red2.jpg" afterPath="$PROJECT_DIR$/images/portfolio/red2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/red3.jpg" afterPath="$PROJECT_DIR$/images/portfolio/red3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/red4.jpg" afterPath="$PROJECT_DIR$/images/portfolio/red4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/red5.jpg" afterPath="$PROJECT_DIR$/images/portfolio/red5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/red6.jpg" afterPath="$PROJECT_DIR$/images/portfolio/red6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/red7.jpg" afterPath="$PROJECT_DIR$/images/portfolio/red7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/red8.jpg" afterPath="$PROJECT_DIR$/images/portfolio/red8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/sm1.jpg" afterPath="$PROJECT_DIR$/images/portfolio/sm1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/tsk_1.jpg" afterPath="$PROJECT_DIR$/images/portfolio/tsk_1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/tsk_2.jpg" afterPath="$PROJECT_DIR$/images/portfolio/tsk_2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/tsk_3.jpg" afterPath="$PROJECT_DIR$/images/portfolio/tsk_3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/tsk_4.jpg" afterPath="$PROJECT_DIR$/images/portfolio/tsk_4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/tsk_main.jpg" afterPath="$PROJECT_DIR$/images/portfolio/tsk_main.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/tsv1.jpg" afterPath="$PROJECT_DIR$/images/portfolio/tsv1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/tsv2.jpg" afterPath="$PROJECT_DIR$/images/portfolio/tsv2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/tsv3.jpg" afterPath="$PROJECT_DIR$/images/portfolio/tsv3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/tsv4.jpg" afterPath="$PROJECT_DIR$/images/portfolio/tsv4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/tsv5.jpg" afterPath="$PROJECT_DIR$/images/portfolio/tsv5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/ukrlove1.jpg" afterPath="$PROJECT_DIR$/images/portfolio/ukrlove1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/ukrlove2.jpg" afterPath="$PROJECT_DIR$/images/portfolio/ukrlove2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/ukrlove3.jpg" afterPath="$PROJECT_DIR$/images/portfolio/ukrlove3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/ukrlove4.jpg" afterPath="$PROJECT_DIR$/images/portfolio/ukrlove4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/w1.jpg" afterPath="$PROJECT_DIR$/images/portfolio/w1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/wine1.jpg" afterPath="$PROJECT_DIR$/images/portfolio/wine1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/wine2.jpg" afterPath="$PROJECT_DIR$/images/portfolio/wine2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/yel1.jpg" afterPath="$PROJECT_DIR$/images/portfolio/yel1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/yel2.jpg" afterPath="$PROJECT_DIR$/images/portfolio/yel2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/yel3.jpg" afterPath="$PROJECT_DIR$/images/portfolio/yel3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/yel4.jpg" afterPath="$PROJECT_DIR$/images/portfolio/yel4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/yel5.jpg" afterPath="$PROJECT_DIR$/images/portfolio/yel5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/shop/11.30.26.png" afterPath="$PROJECT_DIR$/images/shop/11.30.26.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/shop/11.33.30.png" afterPath="$PROJECT_DIR$/images/shop/11.33.30.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/shop/12233542_10208297045889750_1591006298_n.jpg" afterPath="$PROJECT_DIR$/images/shop/12233542_10208297045889750_1591006298_n.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/shop/12286023_10208297045849749_1611855808_n.jpg" afterPath="$PROJECT_DIR$/images/shop/12286023_10208297045849749_1611855808_n.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/shop/12305820_10208297045809748_20797978_n.jpg" afterPath="$PROJECT_DIR$/images/shop/12305820_10208297045809748_20797978_n.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/shop/23.23.21.png" afterPath="$PROJECT_DIR$/images/shop/23.23.21.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/shop/23.41.18.png" afterPath="$PROJECT_DIR$/images/shop/23.41.18.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/shop/23.48.06.png" afterPath="$PROJECT_DIR$/images/shop/23.48.06.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/shop/5.jpg" afterPath="$PROJECT_DIR$/images/shop/5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/shop/IMG_1052.jpg" afterPath="$PROJECT_DIR$/images/shop/IMG_1052.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/shop/IMG_1053.jpg" afterPath="$PROJECT_DIR$/images/shop/IMG_1053.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/shop/IMG_1189.JPG" afterPath="$PROJECT_DIR$/images/shop/IMG_1189.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/shop/IMG_1241.jpg" afterPath="$PROJECT_DIR$/images/shop/IMG_1241.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/shop/IMG_2169.jpg" afterPath="$PROJECT_DIR$/images/shop/IMG_2169.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/shop/IMG_4157.jpg" afterPath="$PROJECT_DIR$/images/shop/IMG_4157.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/shop/IMG_4750.jpg" afterPath="$PROJECT_DIR$/images/shop/IMG_4750.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/shop/bTVi4gy48bY.jpg" afterPath="$PROJECT_DIR$/images/shop/bTVi4gy48bY.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/shop/newmodel2.001.jpeg" afterPath="$PROJECT_DIR$/images/shop/newmodel2.001.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/shop/newmodel3.001.jpeg" afterPath="$PROJECT_DIR$/images/shop/newmodel3.001.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/free-vector-vase-of-wild-flowers-clip-art_114704_Vase_Of_Wild_Flowers_clip_art_medium.png" afterPath="$PROJECT_DIR$/images/stories/free-vector-vase-of-wild-flowers-clip-art_114704_Vase_Of_Wild_Flowers_clip_art_medium.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/01.34.09.png" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/01.34.09.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/01.35.20.png" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/01.35.20.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/1073307578716480344_1511087135.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/1073307578716480344_1511087135.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/10main.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/10main.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/11main.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/11main.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/12286023_10208297045849749_1611855808_n.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/12286023_10208297045849749_1611855808_n.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/12main.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/12main.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/13main.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/13main.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/14main.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/14main.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/15main.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/15main.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/1main.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/1main.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/2.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/20.59.32.png" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/20.59.32.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/3.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/4.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/41.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/41.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/48c937d60d02776d340cb09c8e240b72.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/48c937d60d02776d340cb09c8e240b72.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/49.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/49.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/4rohd_0wkl4.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/4rohd_0wkl4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/4xxppyd2dd0.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/4xxppyd2dd0.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/5.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/6_2.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/6_2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/9main.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/9main.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/9xukx5gtyyu.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/9xukx5gtyyu.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_1183.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_1183.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_1241.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_1241.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_3510.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_3510.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_3988.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_3988.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_4161.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_4161.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_4163.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_4163.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_4181.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_4181.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_4192.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_4192.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_4277.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_4277.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_4296.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_4296.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_4316.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_4316.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_4323.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_4323.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_4345.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_4345.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_4349.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_4349.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_4593.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_4593.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_4740.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_4740.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_4744.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_4744.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_4930.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_4930.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_49301.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_49301.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_4936.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_4936.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_49369.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_49369.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_4938.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_4938.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_49383.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_49383.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_4940.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_4940.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_49401.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/IMG_49401.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/Z-MiuM5gcoQ.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/Z-MiuM5gcoQ.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/Z-MiuM5gcoQ1.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/Z-MiuM5gcoQ1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/Z-MiuM5gcoQ3.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/Z-MiuM5gcoQ3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/Z-MiuM5gcoQ7.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/Z-MiuM5gcoQ7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/bntrk3itc1k.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/bntrk3itc1k.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/eGGiww3xK4E.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/eGGiww3xK4E.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/eGGiww3xK4E1.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/eGGiww3xK4E1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/eGGiww3xK4E3.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/eGGiww3xK4E3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/flb_m.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/flb_m.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/h9emkj8h6rs.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/h9emkj8h6rs.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/ins_main.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/ins_main.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/it_main5.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/it_main5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/k1m.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/k1m.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/k2m.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/k2m.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/k3m.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/k3m.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/k4m.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/k4m.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/k5m.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/k5m.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/k6m.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/k6m.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/k7m.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/k7m.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/k8m.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/k8m.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/k9m.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/k9m.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/neo2hvshuby.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/neo2hvshuby.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/nzwcuhtz-9g.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/nzwcuhtz-9g.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/ocZmKXtZ5a0.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/ocZmKXtZ5a0.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/otaqpw5xzcu.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/otaqpw5xzcu.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/r96hbkom7pw.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/r96hbkom7pw.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/red_main.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/red_main.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/01.34.09_0x320.png" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/01.34.09_0x320.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/01.35.20_0x320.png" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/01.35.20_0x320.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/1073307578716480344_1511087135_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/1073307578716480344_1511087135_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/10main_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/10main_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/11main_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/11main_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/12286023_10208297045849749_1611855808_n_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/12286023_10208297045849749_1611855808_n_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/12main_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/12main_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/13main_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/13main_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/14main_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/14main_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/15main_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/15main_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/1main_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/1main_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/20.59.32_0x320.png" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/20.59.32_0x320.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/2_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/2_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/3_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/3_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/41_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/41_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/48c937d60d02776d340cb09c8e240b72_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/48c937d60d02776d340cb09c8e240b72_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/49_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/49_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/4_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/4_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/4rohd_0wkl4_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/4rohd_0wkl4_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/4xxppyd2dd0_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/4xxppyd2dd0_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/5_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/5_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/6_2_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/6_2_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/9main_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/9main_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/9xukx5gtyyu_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/9xukx5gtyyu_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_1183_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_1183_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_1241_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_1241_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_3510_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_3510_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_3988_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_3988_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_4161_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_4161_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_4163_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_4163_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_4181_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_4181_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_4192_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_4192_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_4277_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_4277_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_4296_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_4296_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_4316_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_4316_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_4323_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_4323_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_4345_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_4345_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_4349_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_4349_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_4593_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_4593_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_4740_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_4740_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_4744_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_4744_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_49301_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_49301_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_4930_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_4930_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_49369_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_49369_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_4936_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_4936_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_49383_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_49383_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_4938_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_4938_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_49401_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_49401_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_4940_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/IMG_4940_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/Z-MiuM5gcoQ1_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/Z-MiuM5gcoQ1_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/Z-MiuM5gcoQ3_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/Z-MiuM5gcoQ3_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/Z-MiuM5gcoQ7_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/Z-MiuM5gcoQ7_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/Z-MiuM5gcoQ_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/Z-MiuM5gcoQ_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/bntrk3itc1k_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/bntrk3itc1k_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/eGGiww3xK4E1_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/eGGiww3xK4E1_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/eGGiww3xK4E3_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/eGGiww3xK4E3_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/eGGiww3xK4E_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/eGGiww3xK4E_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/flb_m_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/flb_m_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/h9emkj8h6rs_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/h9emkj8h6rs_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/ins_main_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/ins_main_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/it_main5_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/it_main5_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/k1m_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/k1m_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/k2m_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/k2m_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/k3m_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/k3m_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/k4m_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/k4m_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/k5m_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/k5m_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/k6m_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/k6m_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/k7m_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/k7m_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/k8m_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/k8m_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/k9m_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/k9m_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/neo2hvshuby_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/neo2hvshuby_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/nzwcuhtz-9g_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/nzwcuhtz-9g_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/ocZmKXtZ5a0_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/ocZmKXtZ5a0_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/otaqpw5xzcu_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/otaqpw5xzcu_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/r96hbkom7pw_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/r96hbkom7pw_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/red_main_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/red_main_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/sm_main7_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/sm_main7_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/sm_main_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/sm_main_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/sxnesp7a20o9_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/sxnesp7a20o9_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/tsk_main_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/tsk_main_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/tsv_main_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/tsv_main_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/ukrlove_main_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/ukrlove_main_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/v_qvsdryk18_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/v_qvsdryk18_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/w_main_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/w_main_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/wine_main_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/wine_main_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/yel_main_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/yel_main_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/yl6-krsetu8_0x320.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/resized/yl6-krsetu8_0x320.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/sm_main.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/sm_main.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/sm_main7.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/sm_main7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/sxnesp7a20o9.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/sxnesp7a20o9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/tsk_main.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/tsk_main.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/tsv_main.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/tsv_main.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/ukrlove_main.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/ukrlove_main.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/v_qvsdryk18.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/v_qvsdryk18.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/w_main.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/w_main.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/wine_main.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/wine_main.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/yel_main.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/yel_main.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stories/virtuemart/product/yl6-krsetu8.jpg" afterPath="$PROJECT_DIR$/images/stories/virtuemart/product/yl6-krsetu8.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/birthday/index.html" afterPath="$PROJECT_DIR$/images/blog/birthday/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/flbox/index.html" afterPath="$PROJECT_DIR$/images/blog/flbox/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/ind_day/index.html" afterPath="$PROJECT_DIR$/images/blog/ind_day/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/skw/index.html" afterPath="$PROJECT_DIR$/images/blog/skw/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/srhwedd/index.html" afterPath="$PROJECT_DIR$/images/blog/srhwedd/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/sunmoon/index.html" afterPath="$PROJECT_DIR$/images/blog/sunmoon/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/flowers/index.html" afterPath="$PROJECT_DIR$/images/flowers/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/index.html" afterPath="$PROJECT_DIR$/images/portfolio/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/shop/index.html" afterPath="$PROJECT_DIR$/images/shop/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gk_quark/css/template.ecommerce.css" afterPath="$PROJECT_DIR$/templates/gk_quark/css/template.ecommerce.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gk_quark/html/com_virtuemart/category/default.php" afterPath="$PROJECT_DIR$/templates/gk_quark/html/com_virtuemart/category/default.php" />
     </list>
     <ignored path="abazherka.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,104 +389,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sub.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/com_acymailing/controllers/sub.php">
+      <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/gk_quark/html/com_virtuemart/category/default.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="165" column="9" selection-start-line="165" selection-start-column="9" selection-end-line="165" selection-end-column="9" />
-              <folding />
+              <caret line="76" column="46" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="46" />
+              <folding>
+                <element signature="e#6#669#0#PHP" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gk.scripts.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/gk_quark/js/gk.scripts.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="665" column="32" selection-start-line="665" selection-start-column="32" selection-end-line="665" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.ecommerce.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="template.ecommerce.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/gk_quark/css/template.ecommerce.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11392" column="0" selection-start-line="11392" selection-start-column="0" selection-end-line="11396" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.2371134">
+              <caret line="11418" column="9" selection-start-line="11418" selection-start-column="9" selection-end-line="11418" selection-end-column="9" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tablet.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/gk_quark/css/tablet.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="411" column="0" selection-start-line="411" selection-start-column="0" selection-end-line="415" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mobile.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/gk_quark/css/mobile.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-32.925926">
-              <caret line="867" column="12" selection-start-line="867" selection-start-column="12" selection-end-line="867" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="head.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/gk_quark/layouts/blocks/head.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.1938775">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="subscriber.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administrator/components/com_acymailing/classes/subscriber.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="296" column="0" selection-start-line="296" selection-start-column="0" selection-end-line="296" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administrator/components/com_acymailing/extensions/mod_acymailing/tmpl/default.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="91" column="89" selection-start-line="91" selection-start-column="89" selection-end-line="91" selection-end-column="89" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administrator/components/com_acymailing/helpers/list.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding>
-                <element signature="e#6#209#0#PHP" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -148,7 +432,6 @@
         <option value="$PROJECT_DIR$/templates/gk_quark/html/com_virtuemart/productdetails/default.php" />
         <option value="$PROJECT_DIR$/modules/mod_front_products/tmpl/default.php" />
         <option value="$PROJECT_DIR$/templates/gk_quark/js/gk.menu.js" />
-        <option value="$PROJECT_DIR$/templates/gk_quark/html/com_virtuemart/category/default.php" />
         <option value="$PROJECT_DIR$/language/uk-UA/uk-UA.lib_joomla.ini" />
         <option value="$PROJECT_DIR$/templates/gk_quark/css/small.desktop.css" />
         <option value="$PROJECT_DIR$/templates/gk_quark/layouts/default.php" />
@@ -156,9 +439,10 @@
         <option value="$PROJECT_DIR$/templates/gk_quark/css/small.tablet.css" />
         <option value="$PROJECT_DIR$/components/com_acymailing/controllers/sub.php" />
         <option value="$PROJECT_DIR$/templates/gk_quark/js/gk.scripts.js" />
-        <option value="$PROJECT_DIR$/templates/gk_quark/css/template.ecommerce.css" />
         <option value="$PROJECT_DIR$/templates/gk_quark/css/tablet.css" />
         <option value="$PROJECT_DIR$/templates/gk_quark/css/mobile.css" />
+        <option value="$PROJECT_DIR$/templates/gk_quark/html/com_virtuemart/category/default.php" />
+        <option value="$PROJECT_DIR$/templates/gk_quark/css/template.ecommerce.css" />
       </list>
     </option>
   </component>
@@ -206,7 +490,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -258,8 +541,31 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="abazherka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="abazherka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gk_quark" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -365,15 +671,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="24" width="1879" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19585378" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20458265" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3274244" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3274244" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -383,7 +689,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32518598" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32429615" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.399361" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -430,7 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -581,13 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/gk_quark/html/com_virtuemart/category/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="142" column="101" selection-start-line="142" selection-start-column="84" selection-end-line="142" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libraries/cms/pagination/pagination.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -704,88 +1002,86 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/administrator/components/com_acymailing/extensions/mod_acymailing/tmpl/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="2.7857144">
           <caret line="91" column="89" selection-start-line="91" selection-start-column="89" selection-end-line="91" selection-end-column="89" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/administrator/components/com_acymailing/classes/subscriber.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="9.061225">
           <caret line="296" column="0" selection-start-line="296" selection-start-column="0" selection-end-line="296" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.091836736">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#209#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/administrator/components/com_acymailing/helpers/list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.82653064">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_acymailing/controllers/sub.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="165" column="9" selection-start-line="165" selection-start-column="9" selection-end-line="165" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/gk_quark/js/gk.scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="19.463415">
           <caret line="665" column="32" selection-start-line="665" selection-start-column="32" selection-end-line="665" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/gk_quark/css/template.ecommerce.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11392" column="0" selection-start-line="11392" selection-start-column="0" selection-end-line="11396" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/gk_quark/css/tablet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="12.581633">
           <caret line="411" column="0" selection-start-line="411" selection-start-column="0" selection-end-line="415" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/gk_quark/css/mobile.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-32.925926">
+        <state vertical-scroll-proportion="26.540817">
           <caret line="867" column="12" selection-start-line="867" selection-start-column="12" selection-end-line="867" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/gk_quark/layouts/blocks/head.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.1938775">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6122449">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_acymailing/controllers/sub.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.030612245">
+          <caret line="165" column="9" selection-start-line="165" selection-start-column="9" selection-end-line="165" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/gk_quark/html/com_virtuemart/category/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="76" column="46" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="46" />
+          <folding>
+            <element signature="e#6#669#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/gk_quark/css/template.ecommerce.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2371134">
+          <caret line="11418" column="9" selection-start-line="11418" selection-start-column="9" selection-end-line="11418" selection-end-column="9" />
           <folding />
         </state>
       </provider>

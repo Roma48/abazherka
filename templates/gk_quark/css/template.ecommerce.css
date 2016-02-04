@@ -292,6 +292,7 @@ hr {
 #gkLogo.text > span {
   display: block;
   max-width: 180px;
+  color: #000;
 }
 #gkLogo.text .gkLogoSlogan {
   display: block;
@@ -7177,7 +7178,7 @@ h2.catSub,
 .browse-view .product-additional-info .display-number,
 .productdetails-view .orderby-displaynumber .display-number,
 .productdetails-view .product-additional-info .display-number {
-  text-align: right;
+  text-align: center;
 }
 .browse-view .orderby-displaynumber .display-number select,
 .browse-view .product-additional-info .display-number select,
@@ -9412,9 +9413,9 @@ th {
   padding-top: 20%;
 }
 .gkStoreHeader small {
-  color: #fff;
+  color: #000;
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 10px;
   padding-top: 30px;
 }
@@ -11394,25 +11395,62 @@ a.in {
   width: 25%;
   float: left;
   padding: 25px;
+  position: relative;
 }
 
 #gkMainbody .col.col-4 img {
   max-width: 100%;
   border-radius: 50%;
   margin-bottom: 10px;
+  -webkit-transform: scale(1) !important;
+  -moz-transform: scale(1) !important;
+  -ms-transform: scale(1) !important;
+  -o-transform: scale(1) !important;
+  transform: scale(1) !important;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  -ms-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  transition: all .3s ease-out;
 }
 
-#gkMainbody .col.col-4 a {
+#gkMainbody .col.col-4 a.title {
+  position: absolute;
+  top: 90%;
   text-align: center;
-  width: 100%;
+  left: 10%;
+  width: 80%;
   display: inline-block;
   font-size: 16px;
   font-weight: bold;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #000;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  -ms-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  transition: all .3s ease-out;
 }
 
-#gkMainbody .col.col-4 a:hover {
+/*#gkMainbody .col.col-4 a:hover {*/
+  /*color: #eba034;*/
+/*}*/
+
+.orderlistcontainer {
+  display: none !important;
+}
+
+#gkMainbody .col.col-4:hover img {
+  opacity: 0.25;
+}
+
+#gkMainbody .col.col-4:hover a {
+  top: 45%;
   color: #eba034;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  -ms-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  transition: all .3s ease-out;
 }
